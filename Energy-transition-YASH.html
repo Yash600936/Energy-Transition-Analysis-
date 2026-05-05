@@ -1,0 +1,1950 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Yash Thakkar" />
+
+<meta name="date" content="2026-01-22" />
+
+<title>Energy Transition &amp; Renewable Energy Investment Analysis</title>
+
+<script src="libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+<script src="libs/navigation-1.1/codefolding.js"></script>
+<link href="libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="libs/pagedtable-1.1/js/pagedtable.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
+<style type="text/css" data-origin="pandoc">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    background-color: #2a211c;
+    color: #bdae9d;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #bdae9d;  padding-left: 4px; }
+div.sourceCode
+  { color: #bdae9d; background-color: #2a211c; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ffff00; } /* Alert */
+code span.an { color: #0066ff; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { } /* Attribute */
+code span.bn { color: #44aa43; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #43a8ed; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #049b0a; } /* Char */
+code span.cn { } /* Constant */
+code span.co { color: #0066ff; font-weight: bold; font-style: italic; } /* Comment */
+code span.do { color: #0066ff; font-style: italic; } /* Documentation */
+code span.dt { text-decoration: underline; } /* DataType */
+code span.dv { color: #44aa43; } /* DecVal */
+code span.er { color: #ffff00; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #44aa43; } /* Float */
+code span.fu { color: #ff9358; font-weight: bold; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #0066ff; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #43a8ed; font-weight: bold; } /* Keyword */
+code span.op { } /* Operator */
+code span.pp { font-weight: bold; } /* Preprocessor */
+code span.sc { color: #049b0a; } /* SpecialChar */
+code span.ss { color: #049b0a; } /* SpecialString */
+code span.st { color: #049b0a; } /* String */
+code span.va { } /* Variable */
+code span.vs { color: #049b0a; } /* VerbatimString */
+code span.wa { color: #ffff00; font-weight: bold; } /* Warning */
+
+.sourceCode .row {
+  width: 100%;
+}
+.sourceCode {
+  overflow-x: auto;
+}
+.code-folding-btn {
+  margin-right: -30px;
+}
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    var j = 0;
+    while (j < rules.length) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div id="header">
+
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
+
+
+<h1 class="title toc-ignore">Energy Transition &amp; Renewable Energy
+Investment Analysis</h1>
+<h3 class="subtitle">Do personal preferences like Environmental
+Protection,Financial stability, Social justice increase the Investment
+in Renewable Enegy ?</h3>
+<h4 class="author">Yash Thakkar</h4>
+<h4 class="date">2026-01-22</h4>
+
+</div>
+
+
+<div id="introduction" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Introduction</h1>
+<p>The <strong>global energy transition</strong> has become one of the
+defining challenges of the twenty‑first century. While renewable
+technologies have advanced rapidly, achieving <strong>deep
+decarbonization</strong> requires more than <strong>expanding wind and
+solar capacity</strong>. The transition demands a reconfiguration of
+energy systems, new forms of community participation, and
+<strong>significant behavioral change</strong> at the household level.
+These elements are increasingly recognized as essential for addressing
+climate change, strengthening energy security, and reducing energy
+poverty across Europe.</p>
+<p>Sustainable energy is necessary <strong>not only to limit greenhouse
+gas emissions but also to reduce dependence on imported fossil fuels and
+to improve affordability for vulnerable households</strong>. Yet
+renewable technologies introduce a structural challenge absent from
+conventional energy systems: <strong>volatility</strong>. Solar and wind
+generation fluctuate with weather and daily cycles, creating
+<strong>mismatches between supply and demand</strong> that existing grid
+infrastructures were not designed to manage. As renewable penetration
+grows, this intermittency becomes a central barrier to achieving a fully
+decarbonized energy system.</p>
+<p><strong>Energy communities</strong> have emerged as an institutional
+response to these challenges. By enabling local ownership of renewable
+installations, s<strong>hared energy storage, and coordinated
+demand‑side management</strong>, they help stabilize consumption
+patterns and integrate variable generation more effectively. Their
+social dimension is equally important: community participation increases
+acceptance of renewable projects, strengthens local engagement, and
+encourages households to adopt energy‑efficient behaviors. Research
+shows that when households co‑own renewable systems, they become more
+attentive to consumption, more willing to invest in efficiency, and more
+responsive to peer influence effects that extend even to low‑income
+groups when participation is made accessible.</p>
+<p>Because <strong>energy transitions depend not only on technology but
+also on human behavior</strong>, understanding what motivates households
+to invest in renewable energy is crucial. <strong>Environmental concern,
+financial incentives, and social justice</strong> values all potentially
+shape investment decisions, yet their relative importance remains
+uncertain and may vary across demographic groups. Germany provides a
+particularly relevant context for this investigation, given its high
+level of citizen ownership in renewable energy and its long‑standing
+leadership in community‑based energy models.</p>
+<p><strong>This seminar paper examines</strong> how personal motivations
+influence household investment in renewable energy, drawing on detailed
+survey data from German households. <em>By analyzing the interaction
+between motivations, socioeconomic characteristics, and institutional
+participation, the study identifies the factors that encourage or
+constrain household engagement in the energy transition</em>. The
+findings aim to support in designing more effective, inclusive
+mechanisms that accelerate the shift toward sustainable, equitable, and
+community‑centered energy systems.</p>
+</div>
+<div id="data-analysis" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Data Analysis</h1>
+<p>Library management and theme setup:</p>
+<div id="data-loading-cleaning" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Data Loading &amp;
+Cleaning</h2>
+<p>Before conducting any statistical analysis, it is essential to ensure
+that the dataset is properly imported, cleaned, and prepared. In this
+step, the data is loaded into R and processed to remove inconsistencies,
+incorrect codes, and missing-value placeholders. Many observations in
+the dataset use numeric codes such as <em>-77</em>, <em>-66</em>, or
+<em>-99</em> to represent missing or invalid responses. These values
+must be converted into proper <code>NA</code> values so that statistical
+models can handle them correctly.</p>
+<p>Additionally, the column names are standardized to a consistent
+format using <code>clean_names()</code>, which improves readability and
+prevents errors during analysis. A custom cleaning function is applied
+to both numeric and character variables to ensure that all missing or
+invalid entries are treated consistently across the dataset.</p>
+<p>This preprocessing step is crucial because clean and well‑structured
+data forms the foundation for reliable regression models, accurate
+visualizations, and meaningful interpretation of results. Without proper
+cleaning, the analysis could be biased, misleading, or even invalid.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;C:/1. IBA/Old computer data/New folder/1. IBM/2025-26/Master/1. First/5. Energy transition/data_extended.csv&quot;</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a>clean_col_data <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span> </span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a>  <span class="fu">clean_names</span>()</span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a>clean_missing <span class="ot">&lt;-</span> <span class="cf">function</span>(df) {</span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a>  df <span class="sc">%&gt;%</span></span>
+<span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a>    <span class="fu">mutate</span>(</span>
+<span id="cb1-10"><a href="#cb1-10" tabindex="-1"></a>      <span class="co"># Numeric variables: -77 (main missing), and also -66/-99 if present</span></span>
+<span id="cb1-11"><a href="#cb1-11" tabindex="-1"></a>      <span class="fu">across</span>(</span>
+<span id="cb1-12"><a href="#cb1-12" tabindex="-1"></a>        <span class="fu">where</span>(is.numeric),</span>
+<span id="cb1-13"><a href="#cb1-13" tabindex="-1"></a>        <span class="sc">~</span> <span class="fu">if_else</span>(.x <span class="sc">%in%</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">77</span>, <span class="sc">-</span><span class="dv">66</span>, <span class="sc">-</span><span class="dv">99</span>), <span class="cn">NA_real_</span>, .x)</span>
+<span id="cb1-14"><a href="#cb1-14" tabindex="-1"></a>      ),</span>
+<span id="cb1-15"><a href="#cb1-15" tabindex="-1"></a>      <span class="co"># Character variables: survey codes and blanks -&gt; NA</span></span>
+<span id="cb1-16"><a href="#cb1-16" tabindex="-1"></a>      <span class="fu">across</span>(</span>
+<span id="cb1-17"><a href="#cb1-17" tabindex="-1"></a>        <span class="fu">where</span>(is.character),</span>
+<span id="cb1-18"><a href="#cb1-18" tabindex="-1"></a>        <span class="sc">~</span> <span class="fu">case_when</span>(</span>
+<span id="cb1-19"><a href="#cb1-19" tabindex="-1"></a>          .x <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">&quot;-66&quot;</span>, <span class="st">&quot;-77&quot;</span>, <span class="st">&quot;-99&quot;</span>, <span class="st">&quot;NA&quot;</span>, <span class="st">&quot;NaN&quot;</span>, <span class="st">&quot;na&quot;</span>) <span class="sc">~</span> <span class="cn">NA_character_</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" tabindex="-1"></a>          <span class="fu">str_trim</span>(.x) <span class="sc">==</span> <span class="st">&quot;&quot;</span> <span class="sc">~</span> <span class="cn">NA_character_</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" tabindex="-1"></a>          <span class="cn">TRUE</span> <span class="sc">~</span> .x</span>
+<span id="cb1-22"><a href="#cb1-22" tabindex="-1"></a>        )</span>
+<span id="cb1-23"><a href="#cb1-23" tabindex="-1"></a>      )</span>
+<span id="cb1-24"><a href="#cb1-24" tabindex="-1"></a>    )</span>
+<span id="cb1-25"><a href="#cb1-25" tabindex="-1"></a>}</span>
+<span id="cb1-26"><a href="#cb1-26" tabindex="-1"></a>data_clean <span class="ot">&lt;-</span> <span class="fu">clean_missing</span>(clean_col_data)</span></code></pre></div>
+</div>
+<div id="variable-selection-and-construction-of-key-analytical-measures"
+class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Variable Selection
+and Construction of Key Analytical Measures</h2>
+<p>In this step, a subset of relevant variables is selected from the
+cleaned dataset to prepare the foundation for the statistical analysis.
+The variables chosen represent demographic characteristics, household
+structure, renewable energy ownership, motivational factors, and key
+survey responses related to investment behavior.</p>
+<p>A crucial variable in this analysis is <strong>v_21_2</strong>, which
+captures the <em>amount invested in renewable energy installations</em>.
+This variable is measured in <strong>continuous euro values</strong>,
+making it suitable for modeling investment intensity.</p>
+<p>The dataset also includes three important motivational variables:</p>
+<ul>
+<li><p><strong>v_50_1 — Environmental Protection
+Motivation</strong></p></li>
+<li><p><strong>v_50_2 — Financial Stability Motivation</strong></p></li>
+<li><p><strong>v_50_3 — Social Justice Motivation</strong></p></li>
+</ul>
+<p>These variables measure how important each motivation is to the
+respondent when making decisions. Their scale ranges from:</p>
+<ol style="list-style-type: decimal">
+<li><p>Not important at all</p></li>
+<li><p>Not important</p></li>
+<li><p>Neither important nor not important</p></li>
+<li><p>Rather important</p></li>
+<li><p>Strongly important</p></li>
+<li><p>Don’t know</p></li>
+<li><p>Very important</p></li>
+</ol>
+<p>These variables help assess whether personal values influence
+renewable energy investment behavior.</p>
+<p>Additionally, a binary indicator <strong>invest_RE</strong> is
+created to identify whether a respondent has invested in renewable
+energy in any form (ownership, co‑ownership, or installation). This
+variable is essential for distinguishing investors from
+non‑investors.</p>
+<p>Finally, the income categories are cleaned by removing the “Other”
+category and retaining only <strong>Low</strong>,
+<strong>Medium</strong>, and <strong>High</strong> income groups to
+ensure consistent interpretation in the regression models.</p>
+<p>This preprocessing step ensures that the dataset contains only
+relevant, interpretable, and analytically meaningful variables for the
+subsequent econometric analysis.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>data_sub <span class="ot">&lt;-</span> data_clean <span class="sc">%&gt;%</span></span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>  <span class="fu">select</span>(</span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a>    gender,           <span class="co">#Existing</span></span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a>    age,              <span class="co">#Existing</span></span>
+<span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a>    academic,         <span class="co">#Existing</span></span>
+<span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a>    income_group,home_ownership,rural,urban,classification,  <span class="co">#Existing</span></span>
+<span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a>    ownership, co_ownership,gender_1, <span class="co">#Existing</span></span>
+<span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a>    mot_inv_financial, mot_inv_env, mot_inv_justice, <span class="co">#Existing</span></span>
+<span id="cb2-9"><a href="#cb2-9" tabindex="-1"></a>    v_4_1,v_5_1,v_3_1,v_20_1,v_21_2,v_22_1,v_22_2,v_22_3,v_22_4,v_22_5,v_22_6,v_26_1, <span class="co">#raw data</span></span>
+<span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a>    v_50_1,v_50_2,v_50_3,v_51_1,v_52_1,v_53_1,v_56_1  <span class="co">#raw data</span></span>
+<span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb2-12"><a href="#cb2-12" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb2-13"><a href="#cb2-13" tabindex="-1"></a>    <span class="co"># RE investor indicator (1 = any type of ownership, 0 = none)</span></span>
+<span id="cb2-14"><a href="#cb2-14" tabindex="-1"></a>    <span class="at">invest_RE =</span> <span class="fu">if_else</span>(</span>
+<span id="cb2-15"><a href="#cb2-15" tabindex="-1"></a>      ownership <span class="sc">==</span> <span class="dv">1</span> <span class="sc">|</span> co_ownership <span class="sc">==</span> <span class="dv">1</span> <span class="sc">|</span> v_4_1 <span class="sc">==</span> <span class="dv">1</span>,</span>
+<span id="cb2-16"><a href="#cb2-16" tabindex="-1"></a>      <span class="dv">1</span><span class="dt">L</span>, <span class="dv">0</span><span class="dt">L</span>,</span>
+<span id="cb2-17"><a href="#cb2-17" tabindex="-1"></a>      <span class="at">missing =</span> <span class="cn">NA_integer_</span></span>
+<span id="cb2-18"><a href="#cb2-18" tabindex="-1"></a>    ),</span>
+<span id="cb2-19"><a href="#cb2-19" tabindex="-1"></a>    <span class="co"># Education label for plots/tables</span></span>
+<span id="cb2-20"><a href="#cb2-20" tabindex="-1"></a>    <span class="at">academic_label =</span> <span class="fu">case_when</span>(</span>
+<span id="cb2-21"><a href="#cb2-21" tabindex="-1"></a>      academic <span class="sc">==</span> <span class="dv">1</span> <span class="sc">~</span> <span class="st">&quot;Academic&quot;</span>,</span>
+<span id="cb2-22"><a href="#cb2-22" tabindex="-1"></a>      academic <span class="sc">==</span> <span class="dv">0</span> <span class="sc">~</span> <span class="st">&quot;Non-academic&quot;</span>,</span>
+<span id="cb2-23"><a href="#cb2-23" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
+<span id="cb2-24"><a href="#cb2-24" tabindex="-1"></a>    )</span>
+<span id="cb2-25"><a href="#cb2-25" tabindex="-1"></a>  )</span>
+<span id="cb2-26"><a href="#cb2-26" tabindex="-1"></a></span>
+<span id="cb2-27"><a href="#cb2-27" tabindex="-1"></a><span class="co"># Removed the &quot;other&quot; category from the income category types</span></span>
+<span id="cb2-28"><a href="#cb2-28" tabindex="-1"></a></span>
+<span id="cb2-29"><a href="#cb2-29" tabindex="-1"></a>data_sub <span class="ot">&lt;-</span> data_sub <span class="sc">%&gt;%</span></span>
+<span id="cb2-30"><a href="#cb2-30" tabindex="-1"></a>  <span class="fu">filter</span>(income_group <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">&quot;Low&quot;</span>, <span class="st">&quot;Medium&quot;</span>, <span class="st">&quot;High&quot;</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb2-31"><a href="#cb2-31" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb2-32"><a href="#cb2-32" tabindex="-1"></a>    <span class="at">income_group =</span> <span class="fu">factor</span>(income_group,</span>
+<span id="cb2-33"><a href="#cb2-33" tabindex="-1"></a>                          <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;Low&quot;</span>, <span class="st">&quot;Medium&quot;</span>, <span class="st">&quot;High&quot;</span>))</span>
+<span id="cb2-34"><a href="#cb2-34" tabindex="-1"></a>  )</span>
+<span id="cb2-35"><a href="#cb2-35" tabindex="-1"></a></span>
+<span id="cb2-36"><a href="#cb2-36" tabindex="-1"></a></span>
+<span id="cb2-37"><a href="#cb2-37" tabindex="-1"></a>data_sub <span class="sc">%&gt;%</span> <span class="fu">stargazer</span>(<span class="at">type =</span> <span class="st">&quot;text&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## ===============================================================
+## Statistic           N      Mean     St. Dev.    Min      Max   
+## ---------------------------------------------------------------
+## age               2,278   46.796     13.022    21.500  68.000  
+## academic          2,278   0.356       0.479      0        1    
+## home_ownership    2,278   0.487       0.500      0        1    
+## rural             2,272   0.088       0.283      0        1    
+## urban             2,272   0.912       0.283      0        1    
+## ownership         2,278   0.365       0.482      0        1    
+## co_ownership      2,278   0.175       0.380      0        1    
+## gender_1          2,278   0.555       0.497      0        1    
+## mot_inv_financial 2,278   1.000       0.000      1        1    
+## mot_inv_env       2,278   1.000       0.000      1        1    
+## mot_inv_justice   2,278   1.000       0.000      1        1    
+## v_4_1             2,278   1.635       0.482      1        2    
+## v_5_1              836    1.510       0.563      1        3    
+## v_3_1             2,278   1.451       0.504      1        3    
+## v_20_1             832    3.679       1.511      1        6    
+## v_21_2             498  26,998.500 227,603.400   2    5,000,000
+## v_22_1             832    3.434       1.267      1        6    
+## v_22_2             832    4.023       1.123      1        6    
+## v_22_3             832    3.363       1.365      1        6    
+## v_22_4             832    3.971       1.167      1        6    
+## v_22_5             832    4.052       1.107      1        6    
+## v_22_6             832    3.530       1.377      1        6    
+## v_26_1            1,446   1.602       0.490      1        2    
+## v_50_1            2,278   5.390       1.635      1        7    
+## v_50_2            2,278   6.067       1.130      1        7    
+## v_50_3            2,278   5.768       1.378      1        7    
+## v_51_1            2,278   1.991       0.782      1        3    
+## v_52_1            2,278   1.665       0.741      1        3    
+## v_53_1            2,278   1.513       0.500      1        2    
+## v_56_1            2,278   5.651       1.761      1        8    
+## invest_RE         2,278   0.365       0.482      0        1    
+## ---------------------------------------------------------------</code></pre>
+</div>
+<div
+id="filtering-renewable-energy-investors-and-constructing-analytical-variables"
+class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Filtering Renewable
+Energy Investors and Constructing Analytical Variables</h2>
+<p>This step focuses on preparing the final dataset used for the
+regression analysis. First, the data is filtered to include only
+respondents who have actually invested in renewable energy
+installations. This is done using the variable <strong>v_21_2</strong>,
+which records the <em>amount invested in renewable energy
+technologies</em> in <strong>continuous euro values</strong>.
+Respondents with missing values or zero investment are excluded to
+ensure that the analysis focuses on actual investors.</p>
+<p>Next, the three motivational variables <strong>environmental
+protection (v_50_1)</strong>, <strong>financial stability
+(v_50_2)</strong>, and <strong>social justice (v_50_3)</strong> are
+transformed into meaningful categorical groups. These variables
+originally use a 1–7 scale:</p>
+<ol style="list-style-type: decimal">
+<li><p>Not important at all</p></li>
+<li><p>Not important</p></li>
+<li><p>Neither important nor not important</p></li>
+<li><p>Rather important</p></li>
+<li><p>Strongly important</p></li>
+<li><p>Don’t know</p></li>
+<li><p>Very important</p></li>
+</ol>
+<p>To make the analysis more interpretable, these values are grouped
+into:</p>
+<ul>
+<li><p><strong>Low motivation</strong> (1–2)</p></li>
+<li><p><strong>Medium motivation</strong> (3–4)</p></li>
+<li><p><strong>High motivation</strong> (5–7)</p></li>
+<li><p><strong>Not important / Don’t know</strong> (6)</p></li>
+</ul>
+<p>This categorization allows us to compare how different levels of
+personal motivation relate to investment behavior.</p>
+<p>Finally, the investment amount is transformed using a
+<strong>logarithmic transformation</strong>
+(<code>log(v_21_2 + 1)</code>). This is a standard technique in
+econometrics to reduce skewness, stabilize variance, and improve model
+fit when dealing with monetary variables that typically have a long
+right tail.</p>
+<p>Only respondents with valid motivation categories are retained,
+ensuring a clean and consistent dataset for the regression models.</p>
+<p>This step is essential because it creates the core variables used in
+the analysis and ensures that the dataset reflects meaningful investment
+behavior and interpretable motivational categories.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="co"># Filter: Only RE investors with investment amounts</span></span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>data_analysis <span class="ot">&lt;-</span> data_sub <span class="sc">%&gt;%</span></span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(v_21_2) <span class="sc">&amp;</span> v_21_2 <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a>    <span class="co"># Categorize motivations</span></span>
+<span id="cb4-6"><a href="#cb4-6" tabindex="-1"></a>    <span class="at">env_mot =</span> <span class="fu">case_when</span>(</span>
+<span id="cb4-7"><a href="#cb4-7" tabindex="-1"></a>      v_50_1<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>) <span class="sc">~</span> <span class="st">&quot;Low&quot;</span>,</span>
+<span id="cb4-8"><a href="#cb4-8" tabindex="-1"></a>      v_50_1<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">4</span>) <span class="sc">~</span> <span class="st">&quot;Medium&quot;</span>,</span>
+<span id="cb4-9"><a href="#cb4-9" tabindex="-1"></a>      v_50_1<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">5</span>, <span class="dv">7</span>) <span class="sc">~</span> <span class="st">&quot;High&quot;</span>,</span>
+<span id="cb4-10"><a href="#cb4-10" tabindex="-1"></a>      v_50_1 <span class="sc">==</span> <span class="dv">6</span> <span class="sc">~</span> <span class="st">&quot;Not important&quot;</span>,</span>
+<span id="cb4-11"><a href="#cb4-11" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
+<span id="cb4-12"><a href="#cb4-12" tabindex="-1"></a>    ),</span>
+<span id="cb4-13"><a href="#cb4-13" tabindex="-1"></a>    <span class="at">fin_mot =</span> <span class="fu">case_when</span>(</span>
+<span id="cb4-14"><a href="#cb4-14" tabindex="-1"></a>      v_50_2<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>) <span class="sc">~</span> <span class="st">&quot;Low&quot;</span>,</span>
+<span id="cb4-15"><a href="#cb4-15" tabindex="-1"></a>      v_50_2<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">4</span>) <span class="sc">~</span> <span class="st">&quot;Medium&quot;</span>,</span>
+<span id="cb4-16"><a href="#cb4-16" tabindex="-1"></a>      v_50_2<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">5</span>, <span class="dv">7</span>) <span class="sc">~</span> <span class="st">&quot;High&quot;</span>,</span>
+<span id="cb4-17"><a href="#cb4-17" tabindex="-1"></a>      v_50_2 <span class="sc">==</span> <span class="dv">6</span> <span class="sc">~</span> <span class="st">&quot;Not important&quot;</span>,</span>
+<span id="cb4-18"><a href="#cb4-18" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
+<span id="cb4-19"><a href="#cb4-19" tabindex="-1"></a>    ),</span>
+<span id="cb4-20"><a href="#cb4-20" tabindex="-1"></a>    <span class="at">just_mot =</span> <span class="fu">case_when</span>(</span>
+<span id="cb4-21"><a href="#cb4-21" tabindex="-1"></a>      v_50_3<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>) <span class="sc">~</span> <span class="st">&quot;Low&quot;</span>,</span>
+<span id="cb4-22"><a href="#cb4-22" tabindex="-1"></a>      v_50_3<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">4</span>) <span class="sc">~</span> <span class="st">&quot;Medium&quot;</span>,</span>
+<span id="cb4-23"><a href="#cb4-23" tabindex="-1"></a>      v_50_3<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">5</span>, <span class="dv">7</span>) <span class="sc">~</span> <span class="st">&quot;High&quot;</span>,</span>
+<span id="cb4-24"><a href="#cb4-24" tabindex="-1"></a>      v_50_3 <span class="sc">==</span> <span class="dv">6</span> <span class="sc">~</span> <span class="st">&quot;Not important&quot;</span>,</span>
+<span id="cb4-25"><a href="#cb4-25" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
+<span id="cb4-26"><a href="#cb4-26" tabindex="-1"></a>    ),</span>
+<span id="cb4-27"><a href="#cb4-27" tabindex="-1"></a>    <span class="co"># Log transformation</span></span>
+<span id="cb4-28"><a href="#cb4-28" tabindex="-1"></a>    <span class="at">invest_log =</span> <span class="fu">log</span>(v_21_2 <span class="sc">+</span> <span class="dv">1</span>)</span>
+<span id="cb4-29"><a href="#cb4-29" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb4-30"><a href="#cb4-30" tabindex="-1"></a>  <span class="fu">drop_na</span>(env_mot, fin_mot, just_mot)</span>
+<span id="cb4-31"><a href="#cb4-31" tabindex="-1"></a><span class="do">## Analysis: Personal Motivation (v_50_1, v_50_2, v_50_3) → RE Investment</span></span>
+<span id="cb4-32"><a href="#cb4-32" tabindex="-1"></a></span>
+<span id="cb4-33"><a href="#cb4-33" tabindex="-1"></a><span class="co"># Filter: Only households who invested in RE + reported exact amount</span></span>
+<span id="cb4-34"><a href="#cb4-34" tabindex="-1"></a>data_analysis <span class="ot">&lt;-</span> data_sub <span class="sc">%&gt;%</span></span>
+<span id="cb4-35"><a href="#cb4-35" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(v_21_2) <span class="sc">&amp;</span> v_21_2 <span class="sc">&gt;</span> <span class="dv">0</span>) <span class="sc">%&gt;%</span>  <span class="co"># Has investment amount</span></span>
+<span id="cb4-36"><a href="#cb4-36" tabindex="-1"></a>  </span>
+<span id="cb4-37"><a href="#cb4-37" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-38"><a href="#cb4-38" tabindex="-1"></a>    <span class="co"># CATEGORIZE: 1-2=Low, 3-4=Medium, 5,7=High, 6=Not important</span></span>
+<span id="cb4-39"><a href="#cb4-39" tabindex="-1"></a>    <span class="at">env_mot =</span> <span class="fu">case_when</span>(</span>
+<span id="cb4-40"><a href="#cb4-40" tabindex="-1"></a>      v_50_1<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>) <span class="sc">~</span> <span class="st">&quot;Low&quot;</span>,</span>
+<span id="cb4-41"><a href="#cb4-41" tabindex="-1"></a>      v_50_1 <span class="sc">==</span> <span class="dv">3</span> <span class="sc">|</span> v_50_1 <span class="sc">==</span> <span class="dv">4</span> <span class="sc">~</span> <span class="st">&quot;Medium&quot;</span>,</span>
+<span id="cb4-42"><a href="#cb4-42" tabindex="-1"></a>      v_50_1 <span class="sc">==</span> <span class="dv">5</span> <span class="sc">|</span> v_50_1 <span class="sc">==</span> <span class="dv">7</span> <span class="sc">~</span> <span class="st">&quot;High&quot;</span>,</span>
+<span id="cb4-43"><a href="#cb4-43" tabindex="-1"></a>      v_50_1 <span class="sc">==</span> <span class="dv">6</span> <span class="sc">~</span> <span class="st">&quot;Not important&quot;</span>,</span>
+<span id="cb4-44"><a href="#cb4-44" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
+<span id="cb4-45"><a href="#cb4-45" tabindex="-1"></a>    ),</span>
+<span id="cb4-46"><a href="#cb4-46" tabindex="-1"></a>    </span>
+<span id="cb4-47"><a href="#cb4-47" tabindex="-1"></a>    <span class="at">fin_mot =</span> <span class="fu">case_when</span>(</span>
+<span id="cb4-48"><a href="#cb4-48" tabindex="-1"></a>      v_50_2<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>) <span class="sc">~</span> <span class="st">&quot;Low&quot;</span>,</span>
+<span id="cb4-49"><a href="#cb4-49" tabindex="-1"></a>      v_50_2 <span class="sc">==</span> <span class="dv">3</span> <span class="sc">|</span> v_50_2 <span class="sc">==</span> <span class="dv">4</span> <span class="sc">~</span> <span class="st">&quot;Medium&quot;</span>,</span>
+<span id="cb4-50"><a href="#cb4-50" tabindex="-1"></a>      v_50_2 <span class="sc">==</span> <span class="dv">5</span> <span class="sc">|</span> v_50_2 <span class="sc">==</span> <span class="dv">7</span> <span class="sc">~</span> <span class="st">&quot;High&quot;</span>,</span>
+<span id="cb4-51"><a href="#cb4-51" tabindex="-1"></a>      v_50_2 <span class="sc">==</span> <span class="dv">6</span> <span class="sc">~</span> <span class="st">&quot;Not important&quot;</span>,</span>
+<span id="cb4-52"><a href="#cb4-52" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
+<span id="cb4-53"><a href="#cb4-53" tabindex="-1"></a>    ),</span>
+<span id="cb4-54"><a href="#cb4-54" tabindex="-1"></a>    </span>
+<span id="cb4-55"><a href="#cb4-55" tabindex="-1"></a>    <span class="at">just_mot =</span> <span class="fu">case_when</span>(</span>
+<span id="cb4-56"><a href="#cb4-56" tabindex="-1"></a>      v_50_3<span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>) <span class="sc">~</span> <span class="st">&quot;Low&quot;</span>,</span>
+<span id="cb4-57"><a href="#cb4-57" tabindex="-1"></a>      v_50_3 <span class="sc">==</span> <span class="dv">3</span> <span class="sc">|</span> v_50_3 <span class="sc">==</span> <span class="dv">4</span> <span class="sc">~</span> <span class="st">&quot;Medium&quot;</span>,</span>
+<span id="cb4-58"><a href="#cb4-58" tabindex="-1"></a>      v_50_3 <span class="sc">==</span> <span class="dv">5</span> <span class="sc">|</span> v_50_3 <span class="sc">==</span> <span class="dv">7</span> <span class="sc">~</span> <span class="st">&quot;High&quot;</span>,</span>
+<span id="cb4-59"><a href="#cb4-59" tabindex="-1"></a>      v_50_3 <span class="sc">==</span> <span class="dv">6</span> <span class="sc">~</span> <span class="st">&quot;Not important&quot;</span>,</span>
+<span id="cb4-60"><a href="#cb4-60" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
+<span id="cb4-61"><a href="#cb4-61" tabindex="-1"></a>    ),</span>
+<span id="cb4-62"><a href="#cb4-62" tabindex="-1"></a>    </span>
+<span id="cb4-63"><a href="#cb4-63" tabindex="-1"></a>    <span class="co"># Overall: Take HIGHEST motivation across 3 domains</span></span>
+<span id="cb4-64"><a href="#cb4-64" tabindex="-1"></a>    <span class="at">overall_mot =</span> <span class="fu">case_when</span>(</span>
+<span id="cb4-65"><a href="#cb4-65" tabindex="-1"></a>      (env_mot <span class="sc">==</span> <span class="st">&quot;High&quot;</span>) <span class="sc">|</span> (fin_mot <span class="sc">==</span> <span class="st">&quot;High&quot;</span>) <span class="sc">|</span> (just_mot <span class="sc">==</span> <span class="st">&quot;High&quot;</span>) <span class="sc">~</span> <span class="st">&quot;High&quot;</span>,</span>
+<span id="cb4-66"><a href="#cb4-66" tabindex="-1"></a>      (env_mot <span class="sc">==</span> <span class="st">&quot;Medium&quot;</span>) <span class="sc">|</span> (fin_mot <span class="sc">==</span> <span class="st">&quot;Medium&quot;</span>) <span class="sc">|</span> (just_mot <span class="sc">==</span> <span class="st">&quot;Medium&quot;</span>) <span class="sc">~</span> <span class="st">&quot;Medium&quot;</span>,</span>
+<span id="cb4-67"><a href="#cb4-67" tabindex="-1"></a>      (env_mot <span class="sc">==</span> <span class="st">&quot;Low&quot;</span>) <span class="sc">|</span> (fin_mot <span class="sc">==</span> <span class="st">&quot;Low&quot;</span>) <span class="sc">|</span> (just_mot <span class="sc">==</span> <span class="st">&quot;Low&quot;</span>) <span class="sc">~</span> <span class="st">&quot;Low&quot;</span>,</span>
+<span id="cb4-68"><a href="#cb4-68" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="st">&quot;Not important&quot;</span></span>
+<span id="cb4-69"><a href="#cb4-69" tabindex="-1"></a>    ),</span>
+<span id="cb4-70"><a href="#cb4-70" tabindex="-1"></a>    </span>
+<span id="cb4-71"><a href="#cb4-71" tabindex="-1"></a>    <span class="co"># Order for plotting</span></span>
+<span id="cb4-72"><a href="#cb4-72" tabindex="-1"></a>    <span class="at">overall_mot =</span> <span class="fu">factor</span>(overall_mot, </span>
+<span id="cb4-73"><a href="#cb4-73" tabindex="-1"></a>                        <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;Not important&quot;</span>, <span class="st">&quot;Low&quot;</span>, <span class="st">&quot;Medium&quot;</span>, <span class="st">&quot;High&quot;</span>)),</span>
+<span id="cb4-74"><a href="#cb4-74" tabindex="-1"></a>    </span>
+<span id="cb4-75"><a href="#cb4-75" tabindex="-1"></a>    <span class="co"># Log-transform investment for analysis</span></span>
+<span id="cb4-76"><a href="#cb4-76" tabindex="-1"></a>    <span class="at">invest_log =</span> <span class="fu">log</span>(v_21_2 <span class="sc">+</span> <span class="dv">1</span>)</span>
+<span id="cb4-77"><a href="#cb4-77" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb4-78"><a href="#cb4-78" tabindex="-1"></a>  <span class="fu">drop_na</span>(overall_mot)</span>
+<span id="cb4-79"><a href="#cb4-79" tabindex="-1"></a></span>
+<span id="cb4-80"><a href="#cb4-80" tabindex="-1"></a><span class="co"># Check sample size</span></span>
+<span id="cb4-81"><a href="#cb4-81" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;N (RE investors with motivation data):&quot;</span>, <span class="fu">nrow</span>(data_analysis), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## N (RE investors with motivation data): 498</code></pre>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="fu">table</span>(data_analysis<span class="sc">$</span>overall_mot)</span></code></pre></div>
+<pre><code>## 
+## Not important           Low        Medium          High 
+##            33             5            44           416</code></pre>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;N =&quot;</span>, <span class="fu">nrow</span>(data_analysis), <span class="st">&quot;RE investors</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## N = 498 RE investors</code></pre>
+</div>
+<div
+id="visualizing-the-distribution-of-renewable-energy-investment-amounts"
+class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Visualizing the
+Distribution of Renewable Energy Investment Amounts</h2>
+<p>Before running regression models, it is important to understand how
+the investment variable is distributed. The variable v_21_2 captures the
+amount invested in renewable energy installations in continuous euro
+values. Like most financial variables, investment amounts tend to be
+highly skewed, with a small number of respondents reporting very large
+investments.</p>
+<p>To create a clear and interpretable visualization, the top 1% of
+extreme values are removed using the 99th percentile cutoff. This does
+not affect the statistical analysis but helps prevent the histogram from
+being dominated by a few unusually large investments. By focusing on the
+central 99% of the data, the plot provides a more accurate picture of
+the typical investment behavior among renewable energy investors. The
+histogram below shows how investment amounts are distributed across
+respondents. This visualization helps identify skewness, detect
+potential data issues, and justify the later use of a logarithmic
+transformation (log(v_21_2 + 1)) in the regression models.</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="co"># Remove extreme outliers for visualization (keep 99%)</span></span>
+<span id="cb10-2"><a href="#cb10-2" tabindex="-1"></a><span class="co"># Showing 99% of data | Extreme outliers excluded for clarity</span></span>
+<span id="cb10-3"><a href="#cb10-3" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" tabindex="-1"></a>q99 <span class="ot">&lt;-</span> <span class="fu">quantile</span>(data_analysis<span class="sc">$</span>v_21_2, <span class="fl">0.99</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" tabindex="-1"></a><span class="fu">ggplot</span>(data_analysis <span class="sc">%&gt;%</span> <span class="fu">filter</span>(v_21_2 <span class="sc">&lt;=</span> q99), <span class="fu">aes</span>(<span class="at">x =</span> v_21_2)) <span class="sc">+</span></span>
+<span id="cb10-7"><a href="#cb10-7" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">50</span>, <span class="at">fill =</span> <span class="st">&quot;#2E86AB&quot;</span>, <span class="at">alpha =</span> <span class="fl">0.8</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span></span>
+<span id="cb10-8"><a href="#cb10-8" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">labels =</span> <span class="fu">label_currency</span>(<span class="at">prefix =</span> <span class="st">&quot;€&quot;</span>)) <span class="sc">+</span></span>
+<span id="cb10-9"><a href="#cb10-9" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb10-10"><a href="#cb10-10" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;Distribution of RE Investment Amounts&quot;</span>,</span>
+<span id="cb10-11"><a href="#cb10-11" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;Investment Amount (€)&quot;</span>,</span>
+<span id="cb10-12"><a href="#cb10-12" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;Number of Investors&quot;</span></span>
+<span id="cb10-13"><a href="#cb10-13" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb10-14"><a href="#cb10-14" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb10-15"><a href="#cb10-15" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb10-16"><a href="#cb10-16" tabindex="-1"></a>    <span class="at">panel.grid =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb10-17"><a href="#cb10-17" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">&quot;bold&quot;</span>, <span class="at">size =</span> <span class="dv">14</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>)</span>
+<span id="cb10-18"><a href="#cb10-18" tabindex="-1"></a>  )</span></code></pre></div>
+<p><img src="Energy-transition-YASH_files/figure-html/unnamed-chunk-4-1.png" alt="" width="3000" style="display: block; margin: auto;" /></p>
+<div id="log-transformation-and-visualization-of-investment-amounts"
+class="section level3" number="2.4.1">
+<h3><span class="header-section-number">2.4.1</span> Log Transformation
+and Visualization of Investment Amounts</h3>
+<p>Investment amounts in renewable energy (captured by
+<strong>v_21_2</strong>) are measured in continuous euro values. As is
+typical with financial data, these values are highly right‑skewed: most
+respondents invest relatively small amounts, while a few invest very
+large sums. Such skewness can violate key regression assumptions,
+especially normality and homoscedasticity.</p>
+<p>To address this, the investment variable is transformed using the
+natural logarithm:</p>
+<p><span class="math display">\[
+\text{invest_log} = \log(v_{21\_2} + 1)
+\]</span></p>
+<p>The “+1” ensures that zero values can be included without
+mathematical issues.</p>
+<p>This transformation compresses extreme values, reduces skewness, and
+produces a distribution that is more suitable for linear regression
+models. It also allows coefficients to be interpreted in
+percentage‑change terms, which is often more meaningful for monetary
+variables.</p>
+<p>To visually assess the effect of the transformation, two plots are
+created:</p>
+<ul>
+<li><p><strong>A boxplot with jittered points</strong>, showing the
+spread, central tendency, and remaining outliers in the log‑transformed
+data.</p></li>
+<li><p><strong>A histogram</strong>, illustrating the overall shape of
+the transformed distribution.</p></li>
+</ul>
+<p>Together, these visualizations confirm whether the log transformation
+successfully normalizes the data and prepares it for robust econometric
+analysis.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="co"># Create log-transformed variable</span></span>
+<span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a>data_analysis <span class="ot">&lt;-</span> data_analysis <span class="sc">%&gt;%</span></span>
+<span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">invest_log =</span> <span class="fu">log</span>(v_21_2 <span class="sc">+</span> <span class="dv">1</span>))</span>
+<span id="cb11-4"><a href="#cb11-4" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" tabindex="-1"></a><span class="co"># Boxplot</span></span>
+<span id="cb11-6"><a href="#cb11-6" tabindex="-1"></a><span class="fu">ggplot</span>(data_analysis, <span class="fu">aes</span>(<span class="at">y =</span> invest_log, <span class="at">x =</span> <span class="st">&quot;&quot;</span>)) <span class="sc">+</span></span>
+<span id="cb11-7"><a href="#cb11-7" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">fill =</span> <span class="st">&quot;lightgreen&quot;</span>, <span class="at">alpha =</span> <span class="fl">0.8</span>, <span class="at">color =</span> <span class="st">&quot;black&quot;</span>, <span class="at">linewidth =</span> <span class="dv">1</span>, <span class="at">width =</span> <span class="fl">0.3</span>) <span class="sc">+</span></span>
+<span id="cb11-8"><a href="#cb11-8" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="at">width =</span> <span class="fl">0.1</span>, <span class="at">alpha =</span> <span class="fl">0.3</span>, <span class="at">size =</span> <span class="dv">2</span>, <span class="at">color =</span> <span class="st">&quot;darkgreen&quot;</span>) <span class="sc">+</span></span>
+<span id="cb11-9"><a href="#cb11-9" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb11-10"><a href="#cb11-10" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;Log-Transformed Investment Amount&quot;</span>,</span>
+<span id="cb11-11"><a href="#cb11-11" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;log(Investment Amount + 1)&quot;</span>,</span>
+<span id="cb11-12"><a href="#cb11-12" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb11-13"><a href="#cb11-13" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb11-14"><a href="#cb11-14" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb11-15"><a href="#cb11-15" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb11-16"><a href="#cb11-16" tabindex="-1"></a>    <span class="at">panel.grid =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb11-17"><a href="#cb11-17" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb11-18"><a href="#cb11-18" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">&quot;bold&quot;</span>, <span class="at">size =</span> <span class="dv">14</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>)</span>
+<span id="cb11-19"><a href="#cb11-19" tabindex="-1"></a>  )</span></code></pre></div>
+<p><img src="Energy-transition-YASH_files/figure-html/unnamed-chunk-5-1.png" alt="" width="3000" style="display: block; margin: auto;" /></p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a><span class="fu">hist</span>(<span class="fu">log</span>(data_sub<span class="sc">$</span>v_21_2 </span>
+<span id="cb12-2"><a href="#cb12-2" tabindex="-1"></a>         <span class="sc">+</span> <span class="dv">1</span>),</span>
+<span id="cb12-3"><a href="#cb12-3" tabindex="-1"></a>     <span class="at">breaks =</span> <span class="dv">50</span>,</span>
+<span id="cb12-4"><a href="#cb12-4" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">&quot;Log-Transformed Investment Amount&quot;</span>,</span>
+<span id="cb12-5"><a href="#cb12-5" tabindex="-1"></a>     <span class="at">xlab =</span> <span class="st">&quot;log(Investment Amount + 1)&quot;</span>,</span>
+<span id="cb12-6"><a href="#cb12-6" tabindex="-1"></a>     <span class="at">col =</span> <span class="st">&quot;lightgreen&quot;</span>)</span></code></pre></div>
+<p><img src="Energy-transition-YASH_files/figure-html/unnamed-chunk-5-2.png" alt="" width="3000" style="display: block; margin: auto;" /></p>
+</div>
+<div id="summarizing-investment-levels-across-motivation-domains"
+class="section level3" number="2.4.2">
+<h3><span class="header-section-number">2.4.2</span> Summarizing
+Investment Levels Across Motivation Domains</h3>
+<p>This section restructures the dataset to examine how renewable energy
+investment varies across different types of personal motivations. The
+three motivational variables environmental protection
+(<strong>v_50_1</strong>), financial stability
+(<strong>v_50_2</strong>), and social justice (<strong>v_50_3</strong>)
+were previously categorized into four levels: <em>Not important</em>,
+<em>Low</em>, <em>Medium</em>, and <em>High</em>. To compare these
+domains directly, the data is reshaped from a wide format into a long
+format, allowing all three motivations to be analyzed within a single
+structure.</p>
+<p>The first summary table (<strong>domain_summary</strong>) reports,
+for each motivation domain and each motivation level:</p>
+<ul>
+<li><p><strong>n</strong>: the number of respondents in that
+category</p></li>
+<li><p><strong>mean</strong>: the average renewable energy investment
+amount (in euros)</p></li>
+</ul>
+<p>This helps identify whether certain motivations are associated with
+higher or lower investment levels.</p>
+<p>A second summary table (<strong>motivation_summary</strong>)
+aggregates respondents by their overall motivation category (a combined
+measure) and computes:</p>
+<ul>
+<li><p><strong>Mean investment</strong></p></li>
+<li><p><strong>Median investment</strong></p></li>
+<li><p><strong>Standard deviation</strong></p></li>
+</ul>
+<p>Rounded euro labels are added to improve readability in the final
+table.</p>
+<p>These summaries provide an initial descriptive understanding of how
+personal preferences relate to renewable energy investment behavior.
+They serve as an important precursor to the regression analysis by
+highlighting potential patterns and differences across motivational
+groups.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="co"># Create long-format motivation dataset</span></span>
+<span id="cb13-2"><a href="#cb13-2" tabindex="-1"></a>mot_long <span class="ot">&lt;-</span> data_analysis <span class="sc">%&gt;%</span></span>
+<span id="cb13-3"><a href="#cb13-3" tabindex="-1"></a>  <span class="fu">select</span>(v_21_2, env_mot, fin_mot, just_mot) <span class="sc">%&gt;%</span></span>
+<span id="cb13-4"><a href="#cb13-4" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb13-5"><a href="#cb13-5" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">c</span>(env_mot, fin_mot, just_mot),</span>
+<span id="cb13-6"><a href="#cb13-6" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">&quot;domain&quot;</span>,</span>
+<span id="cb13-7"><a href="#cb13-7" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">&quot;motivation&quot;</span></span>
+<span id="cb13-8"><a href="#cb13-8" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb13-9"><a href="#cb13-9" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(motivation)) <span class="sc">%&gt;%</span></span>
+<span id="cb13-10"><a href="#cb13-10" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb13-11"><a href="#cb13-11" tabindex="-1"></a>    <span class="at">domain =</span> <span class="fu">factor</span>(</span>
+<span id="cb13-12"><a href="#cb13-12" tabindex="-1"></a>      domain,</span>
+<span id="cb13-13"><a href="#cb13-13" tabindex="-1"></a>      <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;env_mot&quot;</span>, <span class="st">&quot;fin_mot&quot;</span>, <span class="st">&quot;just_mot&quot;</span>),</span>
+<span id="cb13-14"><a href="#cb13-14" tabindex="-1"></a>      <span class="at">labels =</span> <span class="fu">c</span>(</span>
+<span id="cb13-15"><a href="#cb13-15" tabindex="-1"></a>        <span class="st">&quot;Environmental</span><span class="sc">\n</span><span class="st">Protection (v_50_1)&quot;</span>,</span>
+<span id="cb13-16"><a href="#cb13-16" tabindex="-1"></a>        <span class="st">&quot;Financial</span><span class="sc">\n</span><span class="st">Stability (v_50_2)&quot;</span>,</span>
+<span id="cb13-17"><a href="#cb13-17" tabindex="-1"></a>        <span class="st">&quot;Social</span><span class="sc">\n</span><span class="st">Justice (v_50_3)&quot;</span></span>
+<span id="cb13-18"><a href="#cb13-18" tabindex="-1"></a>      )</span>
+<span id="cb13-19"><a href="#cb13-19" tabindex="-1"></a>    ),</span>
+<span id="cb13-20"><a href="#cb13-20" tabindex="-1"></a>    <span class="at">motivation =</span> <span class="fu">factor</span>(</span>
+<span id="cb13-21"><a href="#cb13-21" tabindex="-1"></a>      motivation,</span>
+<span id="cb13-22"><a href="#cb13-22" tabindex="-1"></a>      <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;Not important&quot;</span>, <span class="st">&quot;Low&quot;</span>, <span class="st">&quot;Medium&quot;</span>, <span class="st">&quot;High&quot;</span>)</span>
+<span id="cb13-23"><a href="#cb13-23" tabindex="-1"></a>    )</span>
+<span id="cb13-24"><a href="#cb13-24" tabindex="-1"></a>  )</span>
+<span id="cb13-25"><a href="#cb13-25" tabindex="-1"></a></span>
+<span id="cb13-26"><a href="#cb13-26" tabindex="-1"></a><span class="co"># Summary table by domain × motivation</span></span>
+<span id="cb13-27"><a href="#cb13-27" tabindex="-1"></a>domain_summary <span class="ot">&lt;-</span> mot_long <span class="sc">%&gt;%</span></span>
+<span id="cb13-28"><a href="#cb13-28" tabindex="-1"></a>  <span class="fu">group_by</span>(domain, motivation) <span class="sc">%&gt;%</span></span>
+<span id="cb13-29"><a href="#cb13-29" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb13-30"><a href="#cb13-30" tabindex="-1"></a>    <span class="at">n =</span> <span class="fu">n</span>(),</span>
+<span id="cb13-31"><a href="#cb13-31" tabindex="-1"></a>    <span class="at">mean =</span> <span class="fu">mean</span>(v_21_2, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb13-32"><a href="#cb13-32" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">&quot;drop&quot;</span></span>
+<span id="cb13-33"><a href="#cb13-33" tabindex="-1"></a>  )</span>
+<span id="cb13-34"><a href="#cb13-34" tabindex="-1"></a></span>
+<span id="cb13-35"><a href="#cb13-35" tabindex="-1"></a><span class="co"># Summary: counts + mean/median/sd investment by overall motivation</span></span>
+<span id="cb13-36"><a href="#cb13-36" tabindex="-1"></a>motivation_summary <span class="ot">&lt;-</span> data_analysis <span class="sc">%&gt;%</span></span>
+<span id="cb13-37"><a href="#cb13-37" tabindex="-1"></a>  <span class="fu">group_by</span>(overall_mot) <span class="sc">%&gt;%</span></span>
+<span id="cb13-38"><a href="#cb13-38" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb13-39"><a href="#cb13-39" tabindex="-1"></a>    <span class="at">n =</span> <span class="fu">n</span>(),</span>
+<span id="cb13-40"><a href="#cb13-40" tabindex="-1"></a>    <span class="at">mean_invest =</span> <span class="fu">mean</span>(v_21_2, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb13-41"><a href="#cb13-41" tabindex="-1"></a>    <span class="at">median_invest =</span> <span class="fu">median</span>(v_21_2, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb13-42"><a href="#cb13-42" tabindex="-1"></a>    <span class="at">sd_invest =</span> <span class="fu">sd</span>(v_21_2, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb13-43"><a href="#cb13-43" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">&quot;drop&quot;</span></span>
+<span id="cb13-44"><a href="#cb13-44" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb13-45"><a href="#cb13-45" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb13-46"><a href="#cb13-46" tabindex="-1"></a>    <span class="at">mean_label =</span> scales<span class="sc">::</span><span class="fu">dollar_format</span>(<span class="at">prefix =</span> <span class="st">&quot;€&quot;</span>, <span class="at">big.mark =</span> <span class="st">&quot;,&quot;</span>)(<span class="fu">round</span>(mean_invest, <span class="sc">-</span><span class="dv">2</span>)),</span>
+<span id="cb13-47"><a href="#cb13-47" tabindex="-1"></a>    <span class="at">median_label =</span> scales<span class="sc">::</span><span class="fu">dollar_format</span>(<span class="at">prefix =</span> <span class="st">&quot;€&quot;</span>, <span class="at">big.mark =</span> <span class="st">&quot;,&quot;</span>)(<span class="fu">round</span>(median_invest, <span class="sc">-</span><span class="dv">2</span>))</span>
+<span id="cb13-48"><a href="#cb13-48" tabindex="-1"></a>  )</span>
+<span id="cb13-49"><a href="#cb13-49" tabindex="-1"></a></span>
+<span id="cb13-50"><a href="#cb13-50" tabindex="-1"></a><span class="co"># Final table</span></span>
+<span id="cb13-51"><a href="#cb13-51" tabindex="-1"></a><span class="fu">kable</span>(</span>
+<span id="cb13-52"><a href="#cb13-52" tabindex="-1"></a>  motivation_summary,</span>
+<span id="cb13-53"><a href="#cb13-53" tabindex="-1"></a>  <span class="at">digits =</span> <span class="dv">0</span>,</span>
+<span id="cb13-54"><a href="#cb13-54" tabindex="-1"></a>  <span class="at">col.names =</span> <span class="fu">c</span>(</span>
+<span id="cb13-55"><a href="#cb13-55" tabindex="-1"></a>    <span class="st">&quot;Motivation Level&quot;</span>, <span class="st">&quot;N&quot;</span>, <span class="st">&quot;Mean (€)&quot;</span>, <span class="st">&quot;Median (€)&quot;</span>, <span class="st">&quot;SD&quot;</span>, <span class="st">&quot;Mean €&quot;</span>, <span class="st">&quot;Median €&quot;</span></span>
+<span id="cb13-56"><a href="#cb13-56" tabindex="-1"></a>  ),</span>
+<span id="cb13-57"><a href="#cb13-57" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">&quot;RE Investment by Personal Preference Level (v_50_1/2/3)&quot;</span></span>
+<span id="cb13-58"><a href="#cb13-58" tabindex="-1"></a>)</span></code></pre></div>
+<table>
+<caption>RE Investment by Personal Preference Level
+(v_50_1/2/3)</caption>
+<colgroup>
+<col width="26%" />
+<col width="6%" />
+<col width="13%" />
+<col width="16%" />
+<col width="10%" />
+<col width="12%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Motivation Level</th>
+<th align="right">N</th>
+<th align="right">Mean (€)</th>
+<th align="right">Median (€)</th>
+<th align="right">SD</th>
+<th align="left">Mean €</th>
+<th align="left">Median €</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Not important</td>
+<td align="right">33</td>
+<td align="right">12791</td>
+<td align="right">7000</td>
+<td align="right">15258</td>
+<td align="left">€12,800</td>
+<td align="left">€7,000</td>
+</tr>
+<tr class="even">
+<td align="left">Low</td>
+<td align="right">5</td>
+<td align="right">9400</td>
+<td align="right">5000</td>
+<td align="right">7627</td>
+<td align="left">€9,400</td>
+<td align="left">€5,000</td>
+</tr>
+<tr class="odd">
+<td align="left">Medium</td>
+<td align="right">44</td>
+<td align="right">14175</td>
+<td align="right">14850</td>
+<td align="right">11049</td>
+<td align="left">€14,200</td>
+<td align="left">€14,800</td>
+</tr>
+<tr class="even">
+<td align="left">High</td>
+<td align="right">416</td>
+<td align="right">29693</td>
+<td align="right">9378</td>
+<td align="right">248925</td>
+<td align="left">€29,700</td>
+<td align="left">€9,400</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div
+id="visualizing-renewable-energy-investment-across-motivation-domains"
+class="section level3" number="2.4.3">
+<h3><span class="header-section-number">2.4.3</span> Visualizing
+Renewable Energy Investment Across Motivation Domains</h3>
+<p>This section examines how renewable energy investment levels differ
+across the three personal preference domains: <strong>environmental
+protection (v_50_1)</strong>, <strong>financial stability
+(v_50_2)</strong>, and <strong>social justice (v_50_3)</strong>. To
+enable a direct comparison, the dataset is reshaped into a long format
+where each respondent contributes up to three observations—one for each
+motivation domain.</p>
+<p>For every domain and motivation level (<em>Not important</em>,
+<em>Low</em>, <em>Medium</em>, <em>High</em>), the following summary
+statistics are calculated:</p>
+<ul>
+<li><p><strong>n</strong>: the number of respondents in that
+category</p></li>
+<li><p><strong>mean</strong>: the average investment amount in
+euros</p></li>
+</ul>
+<p>These values are then visualized using a faceted bar chart.<br />
+Inside each bar, the <strong>count of respondents</strong> is displayed,
+while the <strong>mean investment amount</strong> (rounded to the
+nearest €100) is shown above the bar. This dual labeling allows the
+viewer to see both the distribution of respondents and the typical
+investment level associated with each motivation category.</p>
+<p>This visualization helps answer a central question of the
+study:<br />
+<em>Do stronger personal motivations correspond to higher renewable
+energy investment amounts?</em></p>
+<p>By comparing patterns across the three domains, the plot provides an
+intuitive, descriptive overview before moving on to formal regression
+analysis.</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a><span class="co"># Create domain_summary from data_analysis</span></span>
+<span id="cb14-2"><a href="#cb14-2" tabindex="-1"></a>mot_long <span class="ot">&lt;-</span> data_analysis <span class="sc">%&gt;%</span></span>
+<span id="cb14-3"><a href="#cb14-3" tabindex="-1"></a>  <span class="fu">select</span>(v_21_2, env_mot, fin_mot, just_mot) <span class="sc">%&gt;%</span></span>
+<span id="cb14-4"><a href="#cb14-4" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">cols =</span> <span class="fu">c</span>(env_mot, fin_mot, just_mot),</span>
+<span id="cb14-5"><a href="#cb14-5" tabindex="-1"></a>               <span class="at">names_to =</span> <span class="st">&quot;domain&quot;</span>,</span>
+<span id="cb14-6"><a href="#cb14-6" tabindex="-1"></a>               <span class="at">values_to =</span> <span class="st">&quot;motivation&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb14-7"><a href="#cb14-7" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(motivation)) <span class="sc">%&gt;%</span></span>
+<span id="cb14-8"><a href="#cb14-8" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb14-9"><a href="#cb14-9" tabindex="-1"></a>    <span class="at">domain =</span> <span class="fu">factor</span>(domain, </span>
+<span id="cb14-10"><a href="#cb14-10" tabindex="-1"></a>                   <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;env_mot&quot;</span>, <span class="st">&quot;fin_mot&quot;</span>, <span class="st">&quot;just_mot&quot;</span>),</span>
+<span id="cb14-11"><a href="#cb14-11" tabindex="-1"></a>                   <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">&quot;Environmental</span><span class="sc">\n</span><span class="st">Protection (v_50_1)&quot;</span>,</span>
+<span id="cb14-12"><a href="#cb14-12" tabindex="-1"></a>                             <span class="st">&quot;Financial</span><span class="sc">\n</span><span class="st">Stability (v_50_2)&quot;</span>,</span>
+<span id="cb14-13"><a href="#cb14-13" tabindex="-1"></a>                             <span class="st">&quot;Social</span><span class="sc">\n</span><span class="st">Justice (v_50_3)&quot;</span>)),</span>
+<span id="cb14-14"><a href="#cb14-14" tabindex="-1"></a>    <span class="at">motivation =</span> <span class="fu">factor</span>(motivation,</span>
+<span id="cb14-15"><a href="#cb14-15" tabindex="-1"></a>                       <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;Not important&quot;</span>, <span class="st">&quot;Low&quot;</span>, <span class="st">&quot;Medium&quot;</span>, <span class="st">&quot;High&quot;</span>))</span>
+<span id="cb14-16"><a href="#cb14-16" tabindex="-1"></a>  )</span>
+<span id="cb14-17"><a href="#cb14-17" tabindex="-1"></a></span>
+<span id="cb14-18"><a href="#cb14-18" tabindex="-1"></a><span class="co"># Create summary table</span></span>
+<span id="cb14-19"><a href="#cb14-19" tabindex="-1"></a>domain_summary <span class="ot">&lt;-</span> mot_long <span class="sc">%&gt;%</span></span>
+<span id="cb14-20"><a href="#cb14-20" tabindex="-1"></a>  <span class="fu">group_by</span>(domain, motivation) <span class="sc">%&gt;%</span></span>
+<span id="cb14-21"><a href="#cb14-21" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb14-22"><a href="#cb14-22" tabindex="-1"></a>    <span class="at">n =</span> <span class="fu">n</span>(),</span>
+<span id="cb14-23"><a href="#cb14-23" tabindex="-1"></a>    <span class="at">mean =</span> <span class="fu">mean</span>(v_21_2, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb14-24"><a href="#cb14-24" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">&quot;drop&quot;</span></span>
+<span id="cb14-25"><a href="#cb14-25" tabindex="-1"></a>  )</span>
+<span id="cb14-26"><a href="#cb14-26" tabindex="-1"></a></span>
+<span id="cb14-27"><a href="#cb14-27" tabindex="-1"></a><span class="co"># NOW plot</span></span>
+<span id="cb14-28"><a href="#cb14-28" tabindex="-1"></a><span class="fu">ggplot</span>(domain_summary, <span class="fu">aes</span>(<span class="at">x =</span> motivation, <span class="at">y =</span> n, <span class="at">fill =</span> motivation)) <span class="sc">+</span></span>
+<span id="cb14-29"><a href="#cb14-29" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">width =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb14-30"><a href="#cb14-30" tabindex="-1"></a>  <span class="fu">geom_text</span>(</span>
+<span id="cb14-31"><a href="#cb14-31" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">label =</span> n),</span>
+<span id="cb14-32"><a href="#cb14-32" tabindex="-1"></a>    <span class="at">position =</span> <span class="fu">position_stack</span>(<span class="at">vjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb14-33"><a href="#cb14-33" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">&quot;darkgray&quot;</span>,</span>
+<span id="cb14-34"><a href="#cb14-34" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">4</span></span>
+<span id="cb14-35"><a href="#cb14-35" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb14-36"><a href="#cb14-36" tabindex="-1"></a>  <span class="fu">geom_text</span>(</span>
+<span id="cb14-37"><a href="#cb14-37" tabindex="-1"></a>    <span class="fu">aes</span>(</span>
+<span id="cb14-38"><a href="#cb14-38" tabindex="-1"></a>      <span class="at">y =</span> n <span class="sc">+</span> <span class="dv">30</span>,</span>
+<span id="cb14-39"><a href="#cb14-39" tabindex="-1"></a>      <span class="at">label =</span> scales<span class="sc">::</span><span class="fu">label_number</span>(<span class="at">prefix =</span> <span class="st">&quot;€&quot;</span>, <span class="at">big.mark =</span> <span class="st">&quot;,&quot;</span>)(<span class="fu">round</span>(mean, <span class="sc">-</span><span class="dv">2</span>))</span>
+<span id="cb14-40"><a href="#cb14-40" tabindex="-1"></a>    ),</span>
+<span id="cb14-41"><a href="#cb14-41" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">&quot;black&quot;</span>,</span>
+<span id="cb14-42"><a href="#cb14-42" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">4</span></span>
+<span id="cb14-43"><a href="#cb14-43" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb14-44"><a href="#cb14-44" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> domain, <span class="at">ncol =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb14-45"><a href="#cb14-45" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(</span>
+<span id="cb14-46"><a href="#cb14-46" tabindex="-1"></a>    <span class="st">&quot;Not important&quot;</span> <span class="ot">=</span> <span class="st">&quot;#8ECAE6&quot;</span>,</span>
+<span id="cb14-47"><a href="#cb14-47" tabindex="-1"></a>    <span class="st">&quot;Low&quot;</span>           <span class="ot">=</span> <span class="st">&quot;#FFB703&quot;</span>,</span>
+<span id="cb14-48"><a href="#cb14-48" tabindex="-1"></a>    <span class="st">&quot;Medium&quot;</span>        <span class="ot">=</span> <span class="st">&quot;#219EBC&quot;</span>,</span>
+<span id="cb14-49"><a href="#cb14-49" tabindex="-1"></a>    <span class="st">&quot;High&quot;</span>          <span class="ot">=</span> <span class="st">&quot;#023047&quot;</span></span>
+<span id="cb14-50"><a href="#cb14-50" tabindex="-1"></a>  )) <span class="sc">+</span></span>
+<span id="cb14-51"><a href="#cb14-51" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.4</span>))) <span class="sc">+</span></span>
+<span id="cb14-52"><a href="#cb14-52" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb14-53"><a href="#cb14-53" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;Renewable Energy Investment by Motivation Domain&quot;</span>,</span>
+<span id="cb14-54"><a href="#cb14-54" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">&quot;Counts inside bars -  Mean investment above bars (in €)&quot;</span>,</span>
+<span id="cb14-55"><a href="#cb14-55" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;Motivation Level&quot;</span>,</span>
+<span id="cb14-56"><a href="#cb14-56" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;Number of Investors&quot;</span></span>
+<span id="cb14-57"><a href="#cb14-57" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb14-58"><a href="#cb14-58" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">13</span>) <span class="sc">+</span></span>
+<span id="cb14-59"><a href="#cb14-59" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb14-60"><a href="#cb14-60" tabindex="-1"></a>    <span class="at">panel.grid =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb14-61"><a href="#cb14-61" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">&quot;none&quot;</span>,</span>
+<span id="cb14-62"><a href="#cb14-62" tabindex="-1"></a>    <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>),</span>
+<span id="cb14-63"><a href="#cb14-63" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">25</span>, <span class="at">hjust =</span> <span class="dv">1</span>),</span>
+<span id="cb14-64"><a href="#cb14-64" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">17</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb14-65"><a href="#cb14-65" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">color =</span> <span class="st">&quot;grey40&quot;</span>)</span>
+<span id="cb14-66"><a href="#cb14-66" tabindex="-1"></a>  )</span></code></pre></div>
+<p><img src="Energy-transition-YASH_files/figure-html/unnamed-chunk-7-1.png" alt="" width="3000" style="display: block; margin: auto;" /></p>
+</div>
+<div id="comparing-motivation-domains-across-motivation-levels"
+class="section level3" number="2.4.4">
+<h3><span class="header-section-number">2.4.4</span> Comparing
+Motivation Domains Across Motivation Levels</h3>
+<p>This section provides a deeper descriptive comparison of how
+renewable energy investment varies across the three motivation
+domains—<strong>environmental protection (v_50_1)</strong>,
+<strong>financial stability (v_50_2)</strong>, and <strong>social
+justice (v_50_3)</strong>—for each motivation level (<em>Not
+important</em>, <em>Low</em>, <em>Medium</em>, <em>High</em>). The goal
+is to understand whether certain motivations attract more investors or
+correspond to higher investment amounts.</p>
+<p>First, a summary table is created that reports, for each combination
+of domain and motivation level:</p>
+<ul>
+<li><p><strong>n</strong>: the number of respondents</p></li>
+<li><p><strong>mean</strong>: the average investment amount in
+euros</p></li>
+</ul>
+<p>Two complementary visualizations are then produced:</p>
+<p><strong>1. Bar Chart of Respondent Counts</strong></p>
+<p>The first plot shows how many respondents fall into each motivation
+level within each domain.</p>
+<ul>
+<li><p>Bars represent the number of investors.</p></li>
+<li><p>Counts are displayed above each bar.</p></li>
+<li><p>Facets separate the four motivation levels.</p></li>
+</ul>
+<p>This visualization highlights whether certain motivations (e.g.,
+environmental protection) attract more respondents than others.</p>
+<p><strong>2. Bar Chart of Mean Investment Amounts</strong></p>
+<p>The second plot displays the <strong>average renewable energy
+investment</strong> for each domain and motivation level.</p>
+<ul>
+<li><p>Bars represent mean investment amounts.</p></li>
+<li><p>Euro values (rounded to the nearest €100) are shown above each
+bar.</p></li>
+<li><p>Facets again separate motivation levels.</p></li>
+</ul>
+<p>This plot helps answer whether <em>higher motivation levels
+correspond to higher investment amounts</em>, and whether this pattern
+differs across domains.</p>
+<p>Together, these two visualizations provide a clear and intuitive
+overview of how personal preferences relate to both the <strong>number
+of investors</strong> and the <strong>amount invested</strong>, offering
+valuable descriptive insights before moving to regression analysis.</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="co"># Create summary2 from mot_long (which you already created)</span></span>
+<span id="cb15-2"><a href="#cb15-2" tabindex="-1"></a>summary2 <span class="ot">&lt;-</span> mot_long <span class="sc">%&gt;%</span></span>
+<span id="cb15-3"><a href="#cb15-3" tabindex="-1"></a>  <span class="fu">group_by</span>(domain, motivation) <span class="sc">%&gt;%</span></span>
+<span id="cb15-4"><a href="#cb15-4" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb15-5"><a href="#cb15-5" tabindex="-1"></a>    <span class="at">n =</span> <span class="fu">n</span>(),</span>
+<span id="cb15-6"><a href="#cb15-6" tabindex="-1"></a>    <span class="at">mean =</span> <span class="fu">mean</span>(v_21_2, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb15-7"><a href="#cb15-7" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">&quot;drop&quot;</span></span>
+<span id="cb15-8"><a href="#cb15-8" tabindex="-1"></a>  )</span>
+<span id="cb15-9"><a href="#cb15-9" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="#cb15-10" tabindex="-1"></a><span class="co"># NOW plot</span></span>
+<span id="cb15-11"><a href="#cb15-11" tabindex="-1"></a><span class="fu">ggplot</span>(summary2, <span class="fu">aes</span>(<span class="at">x =</span> domain, <span class="at">y =</span> n, <span class="at">fill =</span> domain)) <span class="sc">+</span></span>
+<span id="cb15-12"><a href="#cb15-12" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">width =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb15-13"><a href="#cb15-13" tabindex="-1"></a>  <span class="fu">geom_text</span>(</span>
+<span id="cb15-14"><a href="#cb15-14" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">y =</span> n <span class="sc">+</span> <span class="dv">40</span>, <span class="at">label =</span> n),</span>
+<span id="cb15-15"><a href="#cb15-15" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">&quot;black&quot;</span>,</span>
+<span id="cb15-16"><a href="#cb15-16" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">4</span></span>
+<span id="cb15-17"><a href="#cb15-17" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb15-18"><a href="#cb15-18" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> motivation, <span class="at">ncol =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb15-19"><a href="#cb15-19" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(</span>
+<span id="cb15-20"><a href="#cb15-20" tabindex="-1"></a>    <span class="st">&quot;Environmental</span><span class="sc">\n</span><span class="st">Protection (v_50_1)&quot;</span> <span class="ot">=</span> <span class="st">&quot;#2E86AB&quot;</span>,</span>
+<span id="cb15-21"><a href="#cb15-21" tabindex="-1"></a>    <span class="st">&quot;Financial</span><span class="sc">\n</span><span class="st">Stability (v_50_2)&quot;</span> <span class="ot">=</span> <span class="st">&quot;#F6C85F&quot;</span>,</span>
+<span id="cb15-22"><a href="#cb15-22" tabindex="-1"></a>    <span class="st">&quot;Social</span><span class="sc">\n</span><span class="st">Justice (v_50_3)&quot;</span> <span class="ot">=</span> <span class="st">&quot;#6F4E7C&quot;</span></span>
+<span id="cb15-23"><a href="#cb15-23" tabindex="-1"></a>  )) <span class="sc">+</span></span>
+<span id="cb15-24"><a href="#cb15-24" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.25</span>))) <span class="sc">+</span></span>
+<span id="cb15-25"><a href="#cb15-25" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb15-26"><a href="#cb15-26" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;RE Investment by Motivation Levels&quot;</span>,</span>
+<span id="cb15-27"><a href="#cb15-27" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb15-28"><a href="#cb15-28" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;Number of Investors&quot;</span>,</span>
+<span id="cb15-29"><a href="#cb15-29" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">&quot;Domain&quot;</span></span>
+<span id="cb15-30"><a href="#cb15-30" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb15-31"><a href="#cb15-31" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">13</span>) <span class="sc">+</span></span>
+<span id="cb15-32"><a href="#cb15-32" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb15-33"><a href="#cb15-33" tabindex="-1"></a>    <span class="at">panel.grid =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb15-34"><a href="#cb15-34" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">&quot;bottom&quot;</span>,</span>
+<span id="cb15-35"><a href="#cb15-35" tabindex="-1"></a>    <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>),</span>
+<span id="cb15-36"><a href="#cb15-36" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb15-37"><a href="#cb15-37" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb15-38"><a href="#cb15-38" tabindex="-1"></a>    <span class="at">axis.ticks.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb15-39"><a href="#cb15-39" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">17</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb15-40"><a href="#cb15-40" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">color =</span> <span class="st">&quot;grey40&quot;</span>)</span>
+<span id="cb15-41"><a href="#cb15-41" tabindex="-1"></a>  )</span></code></pre></div>
+<p><img src="Energy-transition-YASH_files/figure-html/unnamed-chunk-8-1.png" alt="" width="3000" style="display: block; margin: auto;" /></p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a><span class="fu">ggplot</span>(summary2, <span class="fu">aes</span>(<span class="at">x =</span> domain, <span class="at">y =</span> mean, <span class="at">fill =</span> domain)) <span class="sc">+</span></span>
+<span id="cb16-2"><a href="#cb16-2" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">width =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb16-3"><a href="#cb16-3" tabindex="-1"></a>  <span class="fu">geom_text</span>(</span>
+<span id="cb16-4"><a href="#cb16-4" tabindex="-1"></a>    <span class="fu">aes</span>(</span>
+<span id="cb16-5"><a href="#cb16-5" tabindex="-1"></a>      <span class="at">y =</span> mean <span class="sc">+</span> <span class="fu">max</span>(mean) <span class="sc">*</span> <span class="fl">0.4</span>,</span>
+<span id="cb16-6"><a href="#cb16-6" tabindex="-1"></a>      <span class="at">label =</span> scales<span class="sc">::</span><span class="fu">label_number</span>(<span class="at">prefix =</span> <span class="st">&quot;€&quot;</span>, <span class="at">big.mark =</span> <span class="st">&quot;,&quot;</span>)(<span class="fu">round</span>(mean, <span class="sc">-</span><span class="dv">2</span>))</span>
+<span id="cb16-7"><a href="#cb16-7" tabindex="-1"></a>    ),</span>
+<span id="cb16-8"><a href="#cb16-8" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">&quot;black&quot;</span>,</span>
+<span id="cb16-9"><a href="#cb16-9" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">4</span></span>
+<span id="cb16-10"><a href="#cb16-10" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb16-11"><a href="#cb16-11" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> motivation, <span class="at">ncol =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb16-12"><a href="#cb16-12" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(</span>
+<span id="cb16-13"><a href="#cb16-13" tabindex="-1"></a>    <span class="st">&quot;Environmental</span><span class="sc">\n</span><span class="st">Protection (v_50_1)&quot;</span> <span class="ot">=</span> <span class="st">&quot;#2E86AB&quot;</span>,</span>
+<span id="cb16-14"><a href="#cb16-14" tabindex="-1"></a>    <span class="st">&quot;Financial</span><span class="sc">\n</span><span class="st">Stability (v_50_2)&quot;</span> <span class="ot">=</span> <span class="st">&quot;#F6C85F&quot;</span>,</span>
+<span id="cb16-15"><a href="#cb16-15" tabindex="-1"></a>    <span class="st">&quot;Social</span><span class="sc">\n</span><span class="st">Justice (v_50_3)&quot;</span> <span class="ot">=</span> <span class="st">&quot;#6F4E7C&quot;</span></span>
+<span id="cb16-16"><a href="#cb16-16" tabindex="-1"></a>  )) <span class="sc">+</span></span>
+<span id="cb16-17"><a href="#cb16-17" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(</span>
+<span id="cb16-18"><a href="#cb16-18" tabindex="-1"></a>    <span class="at">labels =</span> scales<span class="sc">::</span><span class="fu">label_number</span>(<span class="at">prefix =</span> <span class="st">&quot;€&quot;</span>, <span class="at">big.mark =</span> <span class="st">&quot;,&quot;</span>),</span>
+<span id="cb16-19"><a href="#cb16-19" tabindex="-1"></a>    <span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.25</span>))</span>
+<span id="cb16-20"><a href="#cb16-20" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb16-21"><a href="#cb16-21" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb16-22"><a href="#cb16-22" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;Mean RE Investment by Motivation Level&quot;</span>,</span>
+<span id="cb16-23"><a href="#cb16-23" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb16-24"><a href="#cb16-24" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;Mean Investment (€)&quot;</span>,</span>
+<span id="cb16-25"><a href="#cb16-25" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">&quot;Domain&quot;</span></span>
+<span id="cb16-26"><a href="#cb16-26" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb16-27"><a href="#cb16-27" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">13</span>) <span class="sc">+</span></span>
+<span id="cb16-28"><a href="#cb16-28" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb16-29"><a href="#cb16-29" tabindex="-1"></a>    <span class="at">panel.grid =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-30"><a href="#cb16-30" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">&quot;bottom&quot;</span>,</span>
+<span id="cb16-31"><a href="#cb16-31" tabindex="-1"></a>    <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>),</span>
+<span id="cb16-32"><a href="#cb16-32" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-33"><a href="#cb16-33" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-34"><a href="#cb16-34" tabindex="-1"></a>    <span class="at">axis.ticks.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb16-35"><a href="#cb16-35" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">17</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb16-36"><a href="#cb16-36" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">color =</span> <span class="st">&quot;grey40&quot;</span>)</span>
+<span id="cb16-37"><a href="#cb16-37" tabindex="-1"></a>  )</span></code></pre></div>
+<p><img src="Energy-transition-YASH_files/figure-html/unnamed-chunk-8-2.png" alt="" width="3000" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</div>
+<div id="regression-analysis" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Regression
+Analysis</h1>
+<div id="model-a-ols-regression-with-fixed-effects"
+class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Model A: OLS
+Regression with Fixed Effects</h2>
+<p>This model examines whether personal motivations—environmental
+protection, financial stability, and social justice—are associated with
+higher renewable energy investment levels. The dependent variable is the
+log‑transformed investment amount,</p>
+<p><span class="math display">\[
+\text{invest_log} = \log(v_{21\_2} + 1)
+\]</span></p>
+<p>which reduces skewness and stabilizes variance in the investment
+data.</p>
+<p>The model includes three key predictors:</p>
+<ul>
+<li><p>env_ mot: Environmental protection motivation</p></li>
+<li><p>fin_ mot: Financial stability motivation</p></li>
+<li><p>just_ mot: Social justice motivation</p></li>
+</ul>
+<p>To control for structural differences across individuals, the model
+incorporates fixed effects for income group, home ownership, age,
+gender, and academic background. These fixed effects absorb unobserved
+heterogeneity within each demographic category, ensuring that the
+estimated coefficients for the motivation variables reflect
+<strong>within‑group variation</strong> rather than differences between
+groups.</p>
+<p>The econometric specification of Model A is:</p>
+<p><span class="math display">\[
+\text{invest_log}_{i}
+= \beta_0
++ \beta_1 \text{env_mot}_{i}
++ \beta_2 \text{fin_mot}_{i}
++ \beta_3 \text{just_mot}_{i}
++ \alpha_{\text{income}(i)}
++ \alpha_{\text{home}(i)}
++ \alpha_{\text{age}(i)}
++ \alpha_{\text{gender}(i)}
++ \alpha_{\text{academic}(i)}
++ \varepsilon_i
+\]</span></p>
+<p>The model is estimated using the <code>felm()</code> function from
+the <strong>lfe</strong> package, which is designed for efficient
+estimation of linear models with multiple fixed effects.</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="do">## Model A: OLS with Fixed Effects + Motivations</span></span>
+<span id="cb17-2"><a href="#cb17-2" tabindex="-1"></a><span class="do">## FE: Income, Home, Age, Gender, Academic</span></span>
+<span id="cb17-3"><a href="#cb17-3" tabindex="-1"></a><span class="do">## Predictors: Environmental, Financial, Social Justice Motivations</span></span>
+<span id="cb17-4"><a href="#cb17-4" tabindex="-1"></a>model_a_fe <span class="ot">&lt;-</span> <span class="fu">felm</span>(invest_log <span class="sc">~</span> env_mot <span class="sc">+</span> fin_mot <span class="sc">+</span> just_mot <span class="sc">|</span> income_group <span class="sc">+</span> home_ownership <span class="sc">+</span> age <span class="sc">+</span> gender_1 <span class="sc">+</span> academic, </span>
+<span id="cb17-5"><a href="#cb17-5" tabindex="-1"></a>                   <span class="at">data =</span> data_analysis)</span>
+<span id="cb17-6"><a href="#cb17-6" tabindex="-1"></a></span>
+<span id="cb17-7"><a href="#cb17-7" tabindex="-1"></a><span class="fu">summary</span>(model_a_fe)</span></code></pre></div>
+<pre><code>## 
+## Call:
+##    felm(formula = invest_log ~ env_mot + fin_mot + just_mot | income_group +      home_ownership + age + gender_1 + academic, data = data_analysis) 
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -7.2601 -0.7554  0.2528  0.8764  7.3068 
+## 
+## Coefficients:
+##                        Estimate Std. Error t value Pr(&gt;|t|)  
+## env_motLow            -0.257003   0.330655  -0.777   0.4374  
+## env_motMedium         -0.288567   0.212323  -1.359   0.1748  
+## env_motNot important  -0.262374   0.171172  -1.533   0.1260  
+## fin_motLow            -0.988056   0.712443  -1.387   0.1661  
+## fin_motMedium          0.068818   0.275670   0.250   0.8030  
+## fin_motNot important   0.230613   0.158146   1.458   0.1454  
+## just_motLow            0.723460   0.413178   1.751   0.0806 .
+## just_motMedium         0.335584   0.205872   1.630   0.1038  
+## just_motNot important -0.009689   0.173458  -0.056   0.9555  
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 1.486 on 474 degrees of freedom
+## Multiple R-squared(full model): 0.1551   Adjusted R-squared: 0.1142 
+## Multiple R-squared(proj model): 0.02245   Adjusted R-squared: -0.02499 
+## F-statistic(full model):3.784 on 23 and 474 DF, p-value: 1.713e-08 
+## F-statistic(proj model): 1.209 on 9 and 474 DF, p-value: 0.2868 
+## *** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE</code></pre>
+</div>
+<div id="model-b-ols-regression-without-fixed-effects"
+class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Model B: OLS
+Regression Without Fixed Effects</h2>
+<p>Model B estimates the same relationship as Model A but
+<strong>without fixed effects</strong>. Instead of absorbing unobserved
+heterogeneity through fixed‑effect terms, this model includes
+demographic variables directly as control variables. This allows us to
+compare how the results differ when demographic characteristics are
+modeled explicitly rather than through fixed‑effect absorption.</p>
+<p>The dependent variable remains the log‑transformed investment
+amount,</p>
+<p><span class="math display">\[
+\text{invest_log} = \log(v_{21\_2} + 1)
+\]</span></p>
+<p>which reduces skewness and improves the suitability of the variable
+for linear regression.</p>
+<p>The key predictors are the three motivation variables:</p>
+<ul>
+<li><p>env_ mot: Environmental protection motivation</p></li>
+<li><p>fin_ mot: Financial stability motivation</p></li>
+<li><p>just_ mot: Social justice motivation</p></li>
+</ul>
+<p>In this specification, demographic characteristics are included
+directly as covariates:</p>
+<ul>
+<li><p>Income group</p></li>
+<li><p>Home ownership</p></li>
+<li><p>Age</p></li>
+<li><p>Gender</p></li>
+<li><p>Academic background</p></li>
+</ul>
+<p>The econometric specification for Model B is:</p>
+<p><span class="math display">\[
+\text{invest_log}_{i}
+= \beta_0
++ \beta_1 \text{env_mot}_{i}
++ \beta_2 \text{fin_mot}_{i}
++ \beta_3 \text{just_mot}_{i}
++ \beta_4 \text{income_group}_{i}
++ \beta_5 \text{home_ownership}_{i}
++ \beta_6 \text{age}_{i}
++ \beta_7 \text{gender}_{i}
++ \beta_8 \text{academic}_{i}
++ \varepsilon_i
+\]</span></p>
+<p>This model provides a useful comparison to Model A by showing how the
+estimated effects of motivations change when demographic variables are
+treated as <strong>controls</strong> rather than <strong>fixed
+effects</strong>.</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="do">## Model B: OLS without Fixed Effect (same predictors, demographics as controls)</span></span>
+<span id="cb19-2"><a href="#cb19-2" tabindex="-1"></a><span class="do">## Predictors: Environmental, Financial, Social Justice Motivations + Demographics</span></span>
+<span id="cb19-3"><a href="#cb19-3" tabindex="-1"></a>model_b_ols <span class="ot">&lt;-</span> <span class="fu">lm</span>(invest_log <span class="sc">~</span> env_mot <span class="sc">+</span> fin_mot <span class="sc">+</span> just_mot <span class="sc">+</span> </span>
+<span id="cb19-4"><a href="#cb19-4" tabindex="-1"></a>                  income_group <span class="sc">+</span> home_ownership <span class="sc">+</span> age <span class="sc">+</span> gender_1 <span class="sc">+</span> academic, </span>
+<span id="cb19-5"><a href="#cb19-5" tabindex="-1"></a>                  <span class="at">data =</span> data_analysis)</span>
+<span id="cb19-6"><a href="#cb19-6" tabindex="-1"></a><span class="fu">summary</span>(model_b_ols)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = invest_log ~ env_mot + fin_mot + just_mot + income_group + 
+##     home_ownership + age + gender_1 + academic, data = data_analysis)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -7.2810 -0.7373  0.2430  0.8886  7.1008 
+## 
+## Coefficients:
+##                        Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)            6.672105   0.387408  17.222  &lt; 2e-16 ***
+## env_motLow            -0.157975   0.329166  -0.480   0.6315    
+## env_motMedium         -0.286975   0.212480  -1.351   0.1775    
+## env_motNot important  -0.247717   0.170496  -1.453   0.1469    
+## fin_motLow            -1.079542   0.707136  -1.527   0.1275    
+## fin_motMedium          0.056582   0.274844   0.206   0.8370    
+## fin_motNot important   0.227028   0.156625   1.450   0.1478    
+## just_motLow            0.716010   0.411127   1.742   0.0822 .  
+## just_motMedium         0.313349   0.205459   1.525   0.1279    
+## just_motNot important -0.027794   0.173696  -0.160   0.8729    
+## income_groupMedium     0.374506   0.265719   1.409   0.1594    
+## income_groupHigh       0.585919   0.268713   2.180   0.0297 *  
+## home_ownership         1.024973   0.179397   5.713 1.94e-08 ***
+## age                    0.018170   0.005818   3.123   0.0019 ** 
+## gender_1              -0.057178   0.141468  -0.404   0.6863    
+## academic               0.051923   0.144148   0.360   0.7189    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 1.49 on 482 degrees of freedom
+## Multiple R-squared:  0.1361, Adjusted R-squared:  0.1092 
+## F-statistic: 5.062 on 15 and 482 DF,  p-value: 2.47e-09</code></pre>
+</div>
+<div id="model-c-ols-regression-with-partial-fixed-effects"
+class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Model C: OLS
+Regression with Partial Fixed Effects</h2>
+<p>Model C extends the previous specifications by combining motivational
+variables with socioeconomic predictors, while applying fixed effects
+only to a subset of demographic characteristics. In this model, income
+group and home ownership are treated as explicit predictors, allowing us
+to estimate their direct association with renewable energy investment.
+Meanwhile, age, gender, and academic background are included as fixed
+effects, absorbing unobserved heterogeneity within these demographic
+groups. The dependent variable remains the log‑transformed investment
+amount,<span class="math display">\[
+\text{invest_log} = \log(v_{21\_2} + 1)
+\]</span></p>
+<p>which reduces skewness and improves model fit.</p>
+<p>The predictors in Model C include:</p>
+<ul>
+<li><p>Income group</p></li>
+<li><p>Home ownership</p></li>
+<li><p>Environmental motivation</p></li>
+<li><p>Financial motivation</p></li>
+<li><p>Social justice motivation</p></li>
+</ul>
+<p>Fixed effects are included for:</p>
+<ul>
+<li><p>Age</p></li>
+<li><p>Gender</p></li>
+<li><p>Academic background</p></li>
+</ul>
+<p>This hybrid structure allows the model to estimate the <strong>direct
+effects</strong> of income and home ownership while still controlling
+for unobserved differences across age, gender, and academic groups.</p>
+<p>The econometric specification of Model C is:</p>
+<p><span class="math display">\[
+\text{invest_log}_{i}
+= \beta_0
++ \beta_1 \text{income_group}_{i}
++ \beta_2 \text{home_ownership}_{i}
++ \beta_3 \text{env_mot}_{i}
++ \beta_4 \text{fin_mot}_{i}
++ \beta_5 \text{just_mot}_{i}
++ \alpha_{\text{age}(i)}
++ \alpha_{\text{gender}(i)}
++ \alpha_{\text{academic}(i)}
++ \varepsilon_i
+\]</span></p>
+<p>This model helps identify whether motivational factors remain
+significant once income and home ownership are explicitly included,
+while still controlling for demographic heterogeneity through fixed
+effects.</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="do">## Model C: Income + Home + Motivations as PREDICTORS</span></span>
+<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a><span class="do">## Fixed Effects: Age, Gender, Academic (the OTHER variables)</span></span>
+<span id="cb21-3"><a href="#cb21-3" tabindex="-1"></a><span class="do">## Predictors: Income, Home Ownership, Environmental, Financial, Social Justice Motivations</span></span>
+<span id="cb21-4"><a href="#cb21-4" tabindex="-1"></a>model_c_fe <span class="ot">&lt;-</span> <span class="fu">felm</span>(invest_log <span class="sc">~</span> income_group <span class="sc">+</span> home_ownership <span class="sc">+</span> env_mot <span class="sc">+</span> fin_mot <span class="sc">+</span> just_mot <span class="sc">|</span> </span>
+<span id="cb21-5"><a href="#cb21-5" tabindex="-1"></a>                   age <span class="sc">+</span> gender_1 <span class="sc">+</span> academic, </span>
+<span id="cb21-6"><a href="#cb21-6" tabindex="-1"></a>                   <span class="at">data =</span> data_analysis)</span>
+<span id="cb21-7"><a href="#cb21-7" tabindex="-1"></a><span class="fu">summary</span>(model_c_fe)</span></code></pre></div>
+<pre><code>## 
+## Call:
+##    felm(formula = invest_log ~ income_group + home_ownership + env_mot +      fin_mot + just_mot | age + gender_1 + academic, data = data_analysis) 
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -7.2601 -0.7554  0.2528  0.8764  7.3068 
+## 
+## Coefficients:
+##                        Estimate Std. Error t value Pr(&gt;|t|)    
+## income_groupMedium     0.477774   0.271840   1.758   0.0795 .  
+## income_groupHigh       0.686295   0.279438   2.456   0.0144 *  
+## home_ownership         1.032226   0.181133   5.699 2.12e-08 ***
+## env_motLow            -0.257003   0.330655  -0.777   0.4374    
+## env_motMedium         -0.288567   0.212323  -1.359   0.1748    
+## env_motNot important  -0.262374   0.171172  -1.533   0.1260    
+## fin_motLow            -0.988056   0.712443  -1.387   0.1661    
+## fin_motMedium          0.068818   0.275670   0.250   0.8030    
+## fin_motNot important   0.230613   0.158146   1.458   0.1454    
+## just_motLow            0.723460   0.413178   1.751   0.0806 .  
+## just_motMedium         0.335584   0.205872   1.630   0.1038    
+## just_motNot important -0.009689   0.173458  -0.056   0.9555    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 1.486 on 474 degrees of freedom
+## Multiple R-squared(full model): 0.1551   Adjusted R-squared: 0.1142 
+## Multiple R-squared(proj model): 0.1119   Adjusted R-squared: 0.06876 
+## F-statistic(full model):3.784 on 23 and 474 DF, p-value: 1.713e-08 
+## F-statistic(proj model): 4.975 on 12 and 474 DF, p-value: 8.555e-08 
+## *** Standard errors may be too high due to more than 2 groups and exactDOF=FALSE</code></pre>
+</div>
+<div id="anova-model-comparison" class="section level2" number="3.4">
+<h2><span class="header-section-number">3.4</span> ANOVA Model
+Comparison</h2>
+<p>To evaluate whether the inclusion of fixed effects or additional
+predictors significantly improves model fit, an Analysis of Variance
+(ANOVA) is conducted between the three regression models. ANOVA compares
+nested models by testing whether the more complex model explains
+significantly more variance than the simpler one.</p>
+<p>The null hypothesis for each comparison is:</p>
+<p><span class="math display">\[
+H_0: \text{The reduced model fits the data as well as the full model.}
+\]</span> <span class="math inline">\(H_1: \text{The full model provides
+a significantly better fit.}\)</span> The ANOVA F‑test statistic is
+computed as:</p>
+<p><span class="math display">\[
+F =
+\frac{
+\left( RSS_{\text{reduced}} - RSS_{\text{full}} \right)
+/
+\left( df_{\text{reduced}} - df_{\text{full}} \right)
+}{
+RSS_{\text{full}} / df_{\text{full}}
+}
+\]</span></p>
+<p>Where:</p>
+<ul>
+<li><p>RSS = residual sum of squares</p></li>
+<li><p>df = degrees of freedom</p></li>
+<li><p>“Reduced” = simpler model</p></li>
+<li><p>“Full” = more complex model</p></li>
+</ul>
+<p><strong>Two comparisons are performed:</strong></p>
+<p><strong>Model B → Model A</strong></p>
+<p>Tests whether adding fixed effects (income, home ownership, age,
+gender, academic) significantly improves model fit.</p>
+<p><strong>Model B → Model C</strong></p>
+<p>Tests whether adding partial fixed effects (age, gender, academic)
+and treating income + home ownership as predictors improves model
+fit.</p>
+<p>The resulting F‑statistics and p‑values indicate whether the
+additional structure in Models A and C provides a statistically
+significant improvement over Model B.</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a><span class="co"># BASIC ANOVA COMPARISON (simple and clean)</span></span>
+<span id="cb23-2"><a href="#cb23-2" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" tabindex="-1"></a><span class="co"># Model B vs Model A</span></span>
+<span id="cb23-4"><a href="#cb23-4" tabindex="-1"></a>anova_b_a <span class="ot">&lt;-</span> <span class="fu">anova</span>(model_b_ols, model_a_fe)</span>
+<span id="cb23-5"><a href="#cb23-5" tabindex="-1"></a>fstat1 <span class="ot">&lt;-</span> anova_b_a<span class="sc">$</span><span class="st">`</span><span class="at">F</span><span class="st">`</span>[<span class="dv">2</span>]</span>
+<span id="cb23-6"><a href="#cb23-6" tabindex="-1"></a>pval1  <span class="ot">&lt;-</span> anova_b_a<span class="sc">$</span><span class="st">`</span><span class="at">Pr(&gt;F)</span><span class="st">`</span>[<span class="dv">2</span>]</span>
+<span id="cb23-7"><a href="#cb23-7" tabindex="-1"></a></span>
+<span id="cb23-8"><a href="#cb23-8" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;M2 → M1: F =&quot;</span>, <span class="fu">round</span>(fstat1, <span class="dv">2</span>), <span class="st">&quot;p =&quot;</span>, <span class="fu">round</span>(pval1, <span class="dv">3</span>), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## M2 → M1: F = 1.8 p = 0.146</code></pre>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="co"># Model B vs Model C</span></span>
+<span id="cb25-2"><a href="#cb25-2" tabindex="-1"></a>anova_b_c <span class="ot">&lt;-</span> <span class="fu">anova</span>(model_b_ols, model_c_fe)</span>
+<span id="cb25-3"><a href="#cb25-3" tabindex="-1"></a>fstat2 <span class="ot">&lt;-</span> anova_b_c<span class="sc">$</span><span class="st">`</span><span class="at">F</span><span class="st">`</span>[<span class="dv">2</span>]</span>
+<span id="cb25-4"><a href="#cb25-4" tabindex="-1"></a>pval2  <span class="ot">&lt;-</span> anova_b_c<span class="sc">$</span><span class="st">`</span><span class="at">Pr(&gt;F)</span><span class="st">`</span>[<span class="dv">2</span>]</span>
+<span id="cb25-5"><a href="#cb25-5" tabindex="-1"></a></span>
+<span id="cb25-6"><a href="#cb25-6" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;M2 → M3: F =&quot;</span>, <span class="fu">round</span>(fstat2, <span class="dv">2</span>), <span class="st">&quot;p =&quot;</span>, <span class="fu">round</span>(pval2, <span class="dv">3</span>), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## M2 → M3: F = 1.8 p = 0.146</code></pre>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" tabindex="-1"></a><span class="co"># Simple summary table</span></span>
+<span id="cb27-2"><a href="#cb27-2" tabindex="-1"></a><span class="fu">data.frame</span>(</span>
+<span id="cb27-3"><a href="#cb27-3" tabindex="-1"></a>  <span class="at">Comparison =</span> <span class="fu">c</span>(<span class="st">&quot;M2 → M1&quot;</span>, <span class="st">&quot;M2 → M3&quot;</span>),</span>
+<span id="cb27-4"><a href="#cb27-4" tabindex="-1"></a>  <span class="at">F_stat =</span> <span class="fu">c</span>(<span class="fu">round</span>(fstat1, <span class="dv">2</span>), <span class="fu">round</span>(fstat2, <span class="dv">2</span>)),</span>
+<span id="cb27-5"><a href="#cb27-5" tabindex="-1"></a>  <span class="at">p_value =</span> <span class="fu">c</span>(<span class="fu">round</span>(pval1, <span class="dv">3</span>), <span class="fu">round</span>(pval2, <span class="dv">3</span>))</span>
+<span id="cb27-6"><a href="#cb27-6" tabindex="-1"></a>)</span></code></pre></div>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["Comparison"],"name":[1],"type":["chr"],"align":["left"]},{"label":["F_stat"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["p_value"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"M2 → M1","2":"1.8","3":"0.146"},{"1":"M2 → M3","2":"1.8","3":"0.146"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<div id="coefficient-comparison-across-models" class="section level3"
+number="3.4.1">
+<h3><span class="header-section-number">3.4.1</span> Coefficient
+Comparison Across Models</h3>
+<p>To compare how the estimated effects of the motivation variables and
+demographic controls differ across the three model specifications, the
+table below reports the coefficients from Model A (fixed effects), Model
+B (OLS with controls), and Model C (partial fixed effects). This
+comparison highlights how the inclusion or exclusion of fixed effects
+influences the magnitude and direction of the estimated
+coefficients.</p>
+<p>The coefficient vector for each model can be written as:</p>
+<p><span class="math display">\[
+\hat{\beta}^{(m)} =
+\begin{pmatrix}
+\hat{\beta}_0 \\
+\hat{\beta}_1 \\
+\vdots \\
+\hat{\beta}_k
+\end{pmatrix},
+\qquad m \in \{A, B, C\}
+\]</span></p>
+<p>where each model includes the same motivation predictors but differs
+in how demographic variables are treated (as fixed effects or as
+explicit covariates).</p>
+<p>To complement the coefficient comparison, the table also reports the
+coefficient of determination:</p>
+<p><span class="math display">\[
+R^2 = 1 - \frac{RSS}{TSS}
+\]</span></p>
+<p>which measures the proportion of variance in log investment explained
+by each model. Higher values indicate better model fit.</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" tabindex="-1"></a><span class="co"># 2. Coefficients</span></span>
+<span id="cb28-2"><a href="#cb28-2" tabindex="-1"></a>coef_comp <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb28-3"><a href="#cb28-3" tabindex="-1"></a>  <span class="at">Variable =</span> <span class="fu">names</span>(<span class="fu">coef</span>(model_a_fe))[<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>],</span>
+<span id="cb28-4"><a href="#cb28-4" tabindex="-1"></a>  <span class="at">Model_A =</span> <span class="fu">round</span>(<span class="fu">coef</span>(model_a_fe)[<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>], <span class="dv">4</span>),</span>
+<span id="cb28-5"><a href="#cb28-5" tabindex="-1"></a>  <span class="at">Model_B =</span> <span class="fu">round</span>(<span class="fu">coef</span>(model_b_ols)[<span class="dv">2</span><span class="sc">:</span><span class="dv">10</span>], <span class="dv">4</span>),</span>
+<span id="cb28-6"><a href="#cb28-6" tabindex="-1"></a>  <span class="at">Model_C =</span> <span class="fu">round</span>(<span class="fu">coef</span>(model_c_fe)[<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>], <span class="dv">4</span>)</span>
+<span id="cb28-7"><a href="#cb28-7" tabindex="-1"></a>)</span>
+<span id="cb28-8"><a href="#cb28-8" tabindex="-1"></a><span class="fu">print</span>(coef_comp)</span></code></pre></div>
+<pre><code>##                                    Variable Model_A Model_B Model_C
+## env_motLow                       env_motLow -0.2570 -0.1580  0.4778
+## env_motMedium                 env_motMedium -0.2886 -0.2870  0.6863
+## env_motNot important   env_motNot important -0.2624 -0.2477  1.0322
+## fin_motLow                       fin_motLow -0.9881 -1.0795 -0.2570
+## fin_motMedium                 fin_motMedium  0.0688  0.0566 -0.2886
+## fin_motNot important   fin_motNot important  0.2306  0.2270 -0.2624
+## just_motLow                     just_motLow  0.7235  0.7160 -0.9881
+## just_motMedium               just_motMedium  0.3356  0.3133  0.0688
+## just_motNot important just_motNot important -0.0097 -0.0278  0.2306</code></pre>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Model Fit:</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+## Model Fit:</code></pre>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;Model A R²:&quot;</span>, <span class="fu">round</span>(<span class="fu">summary</span>(model_a_fe)<span class="sc">$</span>r.squared[<span class="dv">1</span>], <span class="dv">4</span>), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## Model A R²: 0.1551</code></pre>
+<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;Model B R²:&quot;</span>, <span class="fu">round</span>(<span class="fu">summary</span>(model_b_ols)<span class="sc">$</span>r.squared, <span class="dv">4</span>), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## Model B R²: 0.1361</code></pre>
+<div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">&quot;Model C R²:&quot;</span>, <span class="fu">round</span>(<span class="fu">summary</span>(model_c_fe)<span class="sc">$</span>r.squared[<span class="dv">1</span>], <span class="dv">4</span>), <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## Model C R²: 0.1551</code></pre>
+</div>
+<div id="coefficient-comparison-across-models-1" class="section level3"
+number="3.4.2">
+<h3><span class="header-section-number">3.4.2</span> Coefficient
+Comparison Across Models</h3>
+<p>To visualize how the estimated effects of the three motivation
+variables differ across the three model specifications, the plot below
+displays the coefficients for environmental motivation (Env), financial
+motivation (Fin), and social justice motivation (Just) from Model A
+(M1), Model B (M2), and Model C (M3). Each bar represents the estimated
+coefficient:</p>
+<p><span class="math display">\[
+\hat{\beta}^{(m)}_j,
+\qquad j \in \{\text{Env}, \text{Fin}, \text{Just}\}, \quad
+m \in \{1,2,3\}.
+\]</span></p>
+<p>The dashed horizontal line at zero helps identify whether each
+coefficient is positive, negative, or close to zero. Comparing the three
+models illustrates how the inclusion of fixed effects or demographic
+controls influences the magnitude and direction of the estimated
+motivation effects.</p>
+<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" tabindex="-1"></a>mot_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb38-2"><a href="#cb38-2" tabindex="-1"></a>  <span class="at">Term =</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="st">&quot;Env&quot;</span>,<span class="st">&quot;Fin&quot;</span>,<span class="st">&quot;Just&quot;</span>), <span class="dv">3</span>),</span>
+<span id="cb38-3"><a href="#cb38-3" tabindex="-1"></a>  <span class="at">Coef =</span> <span class="fu">c</span>(<span class="fu">coef</span>(model_a_fe)[<span class="dv">2</span><span class="sc">:</span><span class="dv">4</span>], <span class="fu">coef</span>(model_b_ols)[<span class="dv">2</span><span class="sc">:</span><span class="dv">4</span>], <span class="fu">coef</span>(model_c_fe)[<span class="dv">2</span><span class="sc">:</span><span class="dv">4</span>]),</span>
+<span id="cb38-4"><a href="#cb38-4" tabindex="-1"></a>  <span class="at">Model =</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="st">&quot;M1&quot;</span>,<span class="st">&quot;M2&quot;</span>,<span class="st">&quot;M3&quot;</span>), <span class="at">each=</span><span class="dv">3</span>)</span>
+<span id="cb38-5"><a href="#cb38-5" tabindex="-1"></a>)</span>
+<span id="cb38-6"><a href="#cb38-6" tabindex="-1"></a><span class="fu">ggplot</span>(mot_data, <span class="fu">aes</span>(<span class="at">x=</span>Term, <span class="at">y=</span>Coef, <span class="at">fill=</span>Model)) <span class="sc">+</span></span>
+<span id="cb38-7"><a href="#cb38-7" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">position=</span><span class="st">&quot;dodge&quot;</span>) <span class="sc">+</span></span>
+<span id="cb38-8"><a href="#cb38-8" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept=</span><span class="dv">0</span>, <span class="at">lty=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb38-9"><a href="#cb38-9" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">&quot;Model Comparison&quot;</span>) <span class="sc">+</span></span>
+<span id="cb38-10"><a href="#cb38-10" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
+<span id="cb38-11"><a href="#cb38-11" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.grid=</span><span class="fu">element_blank</span>(), <span class="at">legend.position=</span><span class="st">&quot;bottom&quot;</span>)</span></code></pre></div>
+<p><img src="Energy-transition-YASH_files/figure-html/unnamed-chunk-14-1.png" alt="" width="3000" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</div>
+<div id="results-and-findings" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Results and
+Findings</h1>
+<div id="model-a" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Model A</h2>
+<p>Model A shows that none of the motivation variables reach statistical
+significance at the 5% level once income, home ownership, age, gender,
+and academic background are absorbed through fixed effects.
+Environmental and financial motivations display small negative and
+mostly insignificant coefficients, indicating no meaningful association
+with renewable energy investment within demographic groups. Social
+justice motivation shows the strongest positive pattern, with the “Low”
+and “Medium” categories approaching marginal significance (p ≈
+0.08–0.10), suggesting a possible but weak tendency for socially
+motivated individuals to invest more.</p>
+<p>Overall, the fixed‑effects structure explains a substantial portion
+of the variation, while the motivation variables themselves contribute
+little explanatory power in this specification.</p>
+</div>
+<div id="model-b" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Model B</h2>
+<p>Model B shows that, after including demographic controls directly in
+the regression, the three motivation variables environmental, financial,
+and social justice do not exhibit statistically significant effects on
+renewable energy investment. Environmental and financial motivations
+remain small and negative for some categories, while social justice
+motivation again shows a modest positive pattern, with the “Low”
+category approaching marginal significance (p ≈ 0.08). In contrast,
+several demographic variables display strong and significant
+associations: home ownership is a large and highly significant positive
+predictor (p &lt; 0.001), age shows a small but significant positive
+effect (p &lt; 0.01), and high‑income respondents invest significantly
+more than low‑income respondents (p &lt; 0.05). The model explains
+around 13.6% of the variance in investment, indicating moderate
+explanatory power.</p>
+<p>Overall, Model B suggests that demographic characteristics
+particularly home ownership, income, and age play a more substantial
+role in shaping investment behavior than motivational factors.</p>
+</div>
+<div id="model-c" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Model C</h2>
+<p>Model C shows that income and home ownership are strong predictors of
+renewable energy investment when age, gender, and academic background
+are absorbed through fixed effects. High‑income respondents invest
+significantly more than low‑income respondents (p &lt; 0.05), and home
+ownership remains a large and highly significant positive predictor (p
+&lt; 0.001). Medium income also shows a marginally positive effect (p ≈
+0.08).</p>
+<p>In contrast, the three motivation variables environmental, financial,
+and social justice do not reach statistical significance at the 5%
+level, although social justice motivation again displays a modest
+positive trend with marginal significance for the “Low” category (p ≈
+0.08).</p>
+<p>The model explains around 15.5% of the variance in investment,
+indicating that demographic capacity factors (income and home ownership)
+contribute more to investment behavior than motivational differences.
+Overall, Model C reinforces the pattern that structural socioeconomic
+factors are more influential than stated motivations in predicting
+renewable energy investment.</p>
+</div>
+<div id="anova-test-findings" class="section level2" number="4.4">
+<h2><span class="header-section-number">4.4</span> ANOVA Test
+Findings</h2>
+<p>The ANOVA tests comparing Model B with Model A and Model C show that
+neither of the more complex models provides a statistically significant
+improvement in model fit. For both comparisons, the F‑statistic is 1.8
+with a p‑value of 0.146, which is well above the conventional 0.05
+threshold. This indicates that adding fixed effects (Model A) or partial
+fixed effects (Model C) does not significantly reduce residual variance
+relative to the simpler OLS model (Model B). In practical terms, the
+additional structure introduced in Models A and C does not yield a
+statistically meaningful improvement in explanatory power.</p>
+<p>As a result, Model B remains statistically comparable to the more
+complex specifications, even though the fixed‑effects models may still
+offer conceptual advantages for controlling unobserved
+heterogeneity.</p>
+</div>
+<div id="coefficient-comparison-across-models-2" class="section level2"
+number="4.5">
+<h2><span class="header-section-number">4.5</span> Coefficient
+Comparison Across Models</h2>
+<p>The coefficient comparison across the three models shows that the
+motivation variables behave inconsistently depending on how demographic
+structure is modeled. In both Model A (full fixed effects) and Model B
+(OLS with controls), environmental and financial motivations display
+small negative or near‑zero coefficients, indicating weak and non‑robust
+associations with investment. Social justice motivation shows modest
+positive effects in Models A and B, but these effects disappear or
+reverse in Model C.</p>
+<p>In contrast, Model C where income and home ownership enter as
+predictors and age, gender, and academic background are absorbed as
+fixed effects—produces noticeably larger positive coefficients for
+income‑related categories, while the motivation coefficients shift
+direction or shrink substantially. Overall, the comparison suggests that
+<strong>motivation effects are unstable across specifications</strong>,
+while <strong>structural socioeconomic factors (income, home ownership)
+consistently exert stronger and more reliable influence</strong> on
+renewable energy investment.</p>
+</div>
+<div id="coefficient-comparison-graph" class="section level2"
+number="4.6">
+<h2><span class="header-section-number">4.6</span> Coefficient
+Comparison Graph</h2>
+<p>The coefficient comparison graph illustrates how the estimated
+effects of environmental (Env), financial (Fin), and social justice
+(Just) motivations vary across the three model specifications. For
+environmental motivation, Models A and B show small negative
+coefficients, while Model C reverses direction with a positive estimate,
+suggesting that controlling for age, gender, and academic background via
+fixed effects may reveal latent positive associations. Financial
+motivation is negative in Models A and B but turns positive in Model C,
+though the magnitude remains modest. Social justice motivation shows the
+most variation: Model A yields a large negative coefficient, Model B a
+smaller negative one, and Model C a near-zero effect.</p>
+<p>Overall, the graph highlights that <strong>motivation effects are
+sensitive to model structure</strong>, and that <strong>Model C tends to
+produce more positive estimates</strong>, possibly due to its hybrid
+treatment of demographic variables.</p>
+</div>
+</div>
+<div id="conclusion-and-limitations" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Conclusion and
+Limitations</h1>
+<div id="conclusion" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Conclusion</h2>
+<ul>
+<li><p>Motivational preferences alone do not significantly predict
+renewable energy investment when demographic structure is accounted for,
+suggesting that values may be mediated by socioeconomic
+capacity.</p></li>
+<li><p>The consistent strength of home ownership and income effects
+across models indicates that structural access plays a more decisive
+role than personal values in shaping investment behavior.</p></li>
+<li><p>Social justice motivation shows the most promising behavioral
+signal among the three domains, but its influence remains modest and
+statistically fragile across specifications.</p></li>
+<li><p>The instability of motivation coefficients across model
+structures highlights the sensitivity of preference-based predictors to
+how demographic heterogeneity is modeled.</p></li>
+<li><p>While environmental concern is conceptually aligned with
+renewable investment, its empirical impact appears diluted when
+controlling for age, education, and income, pointing to a gap between
+stated values and financial action.</p></li>
+</ul>
+</div>
+<div id="limitations-of-the-study-or-analysis" class="section level2"
+number="5.2">
+<h2><span class="header-section-number">5.2</span> Limitations of the
+Study or Analysis</h2>
+<ul>
+<li><p>Self‑reported motivations may not reflect actual investment
+behavior : The motivation variables are based on subjective survey
+responses, which can be influenced by social desirability, recall bias,
+or respondents’ interpretation of the scale. This limits the precision
+with which personal values can be linked to financial
+decisions.</p></li>
+<li><p>Cross‑sectional data restricts causal inference : Because the
+analysis relies on a single wave of SOEP data, the models capture
+associations rather than causal effects. It is not possible to determine
+whether motivations influence investment or whether investment
+experiences shape motivations.</p></li>
+<li><p>Fixed‑effects structure reduces observable variation : Including
+multiple fixed effects absorbs substantial between‑group variation,
+which can weaken the statistical power of the motivation variables. As a
+result, some meaningful effects may remain undetected due to limited
+within‑group variability.</p></li>
+<li><p>Potential measurement limitations in the investment variable :
+The dependent variable is based on self‑reported investment amounts,
+which may be imprecise or affected by rounding, underreporting, or
+differences in respondents’ understanding of “renewable energy
+investment.</p></li>
+<li><p>Model sensitivity to specification choices : The coefficient
+comparison shows that motivation effects change direction and magnitude
+across Models A, B, and C. This indicates that results are sensitive to
+how demographic factors are modeled, suggesting that unobserved
+heterogeneity or omitted variables may still influence the
+estimates.</p></li>
+</ul>
+</div>
+</div>
+<div id="references" class="section level1" number="6">
+<h1><span class="header-section-number">6</span> References</h1>
+<ol style="list-style-type: decimal">
+<li><p>Lowitzsch (2019). Energy Transition - Financing Consumer
+Co-Ownership.</p></li>
+<li><p>Jens Lowitzsch (2019). Introduction: The Challenge of Achieving
+the Energy Transition. In. Energy Transitions.</p></li>
+<li><p>Jens Lowitzsch (2019). Conclusions: The Role of Consumer
+(Co-)Ownership in the Energy Transition. In. Energy
+Transitions.</p></li>
+<li><p>Magalhães, R., Narracci, F., &amp; Lowitzsch, J. (2025).
+Crowdfunding and Energy Efficiency Contracting: Exploring New Pathways
+for Private Investment in Building
+Renovations. <em>FinTech</em>, <em>4</em>(1), 6. <a
+href="https://www.mdpi.com/2674-1032/4/1/6">https://doi.org/10.3390/fintech4010006.</a></p></li>
+<li><p>Magalhães, R., Lowitzsch, J., &amp; Narracci, F. (2025). How
+(Co-)Ownership in Renewables Improves Heating Usage Behaviour and the
+Willingness to Adopt Energy-Efficient Technologies—Data from German
+Households. <em>Energies</em>, <em>18</em>(12), 3114. <a
+href="https://www.mdpi.com/1996-1073/18/12/3114">https://doi.org/10.3390/en18123114.</a></p></li>
+<li><p>Hanke, F., &amp; Lowitzsch, J. (2020). Empowering Vulnerable
+Consumers to Join Renewable Energy Communities—Towards an Inclusive
+Design of the Clean Energy Package. <em>Energies</em>, <em>13</em>(7),
+1615. <a
+href="https://www.mdpi.com/1996-1073/13/7/1615">https://doi.org/10.3390/en13071615.</a></p></li>
+<li><p>Jens Lowitzsch, Monika Bucha and Sarah Lonscher (2025). From
+Access to Ownership Energy Communities &amp; Social Inclusion in the
+EU’s Energy Transition.</p></li>
+<li><p>Christina E. Hoicka, Jens Lowitzsch, Marie Claire Brisbois, Ankit
+Kumar, Luis Ramirez Camargo (2021), Implementing a just renewable energy
+transition: Policy advice for transposing the new European rules for
+renewable energy communities, Energy Policy, Volume 156, 2021, 112435,
+ISSN 0301-4215, <a href="https://doi.org/10.1016/j.enpol.2021.112435"
+class="uri">https://doi.org/10.1016/j.enpol.2021.112435</a>.</p></li>
+</ol>
+<div id="acknowledgment" class="section level2" number="6.1">
+<h2><span class="header-section-number">6.1</span> Acknowledgment</h2>
+<p><em>I used large language model tools during the preparation of this
+seminar paper for tasks such as code generation, debugging, summarizing
+complex concepts, and improving linguistic clarity. These tools did not
+influence the analytical choices, data interpretation, or substantive
+conclusions presented in this work.</em></p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
